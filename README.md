@@ -1,16 +1,22 @@
-## Hi there 👋
+# Hi there, I'm Seavik! 👋
 
-<!--
-**Seavik2142/Seavik2142** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm a **Software Engineer** and **AI Engineer** who loves turning complex ideas into functional, intelligent applications. My recent work spans full-stack web development, mobile app frameworks, and integrating AI models into practical SaaS products.
 
-Here are some ideas to get you started:
+### 🚀 What I'm up to
+- 🔭 I’m currently building things like **Full-stack House Management systems** and **AI-powered Discord bots (Gemini SaaS)**.
+- 📱 I also experiment with mobile and Web3 tech, like the **Archethic DApp framework with Flutter**.
+- 🧠 I have a deep interest in AI, from modern LLM integrations (Chatbots) to traditional **Expert Systems**.
+- 👯 I’m open to collaborating on open-source AI tools and innovative full-stack applications.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 💻 My Tech Stack
+* **Languages:** JavaScript, Dart, HTML/CSS
+* **Frameworks & Tools:** Flutter, Node.js (and other JS-based frameworks)
+* **AI & Specialized Tech:** Gemini API, Chatbot Architecture, DApp integration
+
+### 📂 Highlighted Projects
+* **discord-gemini-saas:** Integrating powerful AI capabilities directly into Discord communities.
+* **archethic-dapp-framework-flutter:** Exploring decentralized applications using Dart and Flutter.
+* **Fullstack-House-management:** A complete solution for property and home management.
+* **Expert-system-v1:** Exploring foundational AI concepts through expert systems.
+
+### 📊 GitHub Stats
