@@ -1,6 +1,6 @@
 # Hi there, I'm Seavik! 👋
 
-I'm a **Software Engineer** and **AI Engineer** who loves turning complex ideas into functional, intelligent applications. My recent work spans full-stack web development, mobile app frameworks, and integrating AI models into practical SaaS products.
+I'm a **Software Development** and **AI Engineer** who loves turning complex ideas into functional, intelligent applications. My recent work spans full-stack web development, mobile app frameworks, and integrating AI models into practical SaaS products.
 
 ### 🚀 What I'm up to
 - 🔭 I’m currently building things like **Full-stack House Management systems** and **AI-powered Discord bots (Gemini SaaS)**.
