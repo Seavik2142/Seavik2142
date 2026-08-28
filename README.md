@@ -9,8 +9,8 @@ I'm a **Software Development** and **AI Engineer** who loves turning complex ide
 - 👯 I’m open to collaborating on open-source AI tools and innovative full-stack applications.
 
 ### 💻 My Tech Stack
-* **Languages:** JavaScript, Dart, HTML/CSS
-* **Frameworks & Tools:** Flutter, Node.js (and other JS-based frameworks)
+* **Languages:** JavaScript, Dart, HTML/CSS , Python , PHP
+* **Frameworks & Tools:** Flutter, Node.js (and other JS-based frameworks) , (Flask , FastAPI) , Laravel
 * **AI & Specialized Tech:** Gemini API, Chatbot Architecture, DApp integration
 
 ### 📂 Highlighted Projects
