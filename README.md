@@ -147,12 +147,12 @@ A Flutter mobile application for practicing driving license examination question
 <p align="center">
   <img
     width="49%"
-    src="https://raw.githubusercontent.com/Seavik2142/Seavik2142/main/profile-summary-card-output/tokyo_night/3-stats.svg"
+    src="https://raw.githubusercontent.com/Seavik2142/Seavik2142/main/profile-summary-card-output/tokyonight/3-stats.svg"
     alt="GitHub Statistics"
   />
   <img
     width="49%"
-    src="https://raw.githubusercontent.com/Seavik2142/Seavik2142/main/profile-summary-card-output/tokyo_night/2-most-commit-language.svg"
+    src="https://raw.githubusercontent.com/Seavik2142/Seavik2142/main/profile-summary-card-output/tokyonight/2-most-commit-language.svg"
     alt="Most Used Languages"
   />
 </p>
@@ -160,12 +160,12 @@ A Flutter mobile application for practicing driving license examination question
 <p align="center">
   <img
     width="49%"
-    src="https://raw.githubusercontent.com/Seavik2142/Seavik2142/main/profile-summary-card-output/tokyo_night/1-repos-per-language.svg"
+    src="https://raw.githubusercontent.com/Seavik2142/Seavik2142/main/profile-summary-card-output/tokyonight/1-repos-per-language.svg"
     alt="Repos Per Language"
   />
   <img
     width="49%"
-    src="https://raw.githubusercontent.com/Seavik2142/Seavik2142/main/profile-summary-card-output/tokyo_night/4-productive-time.svg"
+    src="https://raw.githubusercontent.com/Seavik2142/Seavik2142/main/profile-summary-card-output/tokyonight/4-productive-time.svg"
     alt="Productive Time"
   />
 </p>
@@ -185,7 +185,7 @@ A Flutter mobile application for practicing driving license examination question
 <p align="center">
   <img
     width="100%"
-    src="https://raw.githubusercontent.com/Seavik2142/Seavik2142/main/profile-summary-card-output/tokyo_night/0-profile-details.svg"
+    src="https://raw.githubusercontent.com/Seavik2142/Seavik2142/main/profile-summary-card-output/tokyonight/0-profile-details.svg"
     alt="GitHub Contribution Activity Graph"
   />
 </p>
