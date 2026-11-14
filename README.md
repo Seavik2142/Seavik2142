@@ -1,9 +1,13 @@
 <!-- ========================================================= -->
-<!--                  ANIMATED PROFILE HEADER                  -->
+<!--              PREMIUM FUTURISTIC NEON HEADER               -->
 <!-- ========================================================= -->
 
 <p align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=220&section=header&text=SEAVIK&fontSize=65&fontColor=ffffff&fontAlignY=35&desc=AI%20ENGINEERING%20%7C%20SOFTWARE%20DEVELOPMENT%20%7C%20OPEN%20SOURCE&descSize=15&descAlignY=58&animation=twinkling" alt="Animated Header" />
+  <img
+    width="100%"
+    src="https://capsule-render.vercel.app/api?type=venom&color=0:080B1E,35:312E81,70:6D28D9,100:06B6D4&height=300&section=header&text=SEAVIK&fontSize=95&fontColor=FFFFFF&fontFamily=Orbitron&fontAlignY=38&desc=AI%20ENGINEERING%20%7C%20MACHINE%20LEARNING%20%7C%20SOFTWARE%20DEVELOPMENT&descSize=16&descAlignY=57&animation=twinkling&stroke=67E8F9&strokeWidth=1"
+    alt="Seavik Futuristic Neon Header"
+  />
 </p>
 
 <!-- ========================================================= -->
@@ -11,7 +15,10 @@
 <!-- ========================================================= -->
 
 <h2 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=23&duration=3000&pause=900&color=36BCF7&center=true&vCenter=true&width=850&height=55&lines=Hello%2C+I'm+Seavik+%F0%9F%91%8B;AI+Engineering+Enthusiast+%F0%9F%A4%96;Python+Developer+%F0%9F%92%BB;Machine+Learning+%7C+LLMs+%7C+AI+Agents;Building+Real-World+AI+Applications;Always+Learning.+Always+Building.+%E2%9C%A8" alt="Typing Animation" />
+  <img
+    src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=23&duration=2500&pause=900&color=67E8F9&center=true&vCenter=true&width=850&height=60&lines=Hello%2C+I'm+Seavik+%F0%9F%91%8B;AI+Engineering+Enthusiast+%F0%9F%A4%96;Python+Developer+%F0%9F%92%BB;Machine+Learning+%7C+LLMs+%7C+AI+Agents;Building+Real-World+AI+Applications;Always+Learning.+Always+Building.+%E2%9C%A8"
+    alt="Typing Animation"
+  />
 </h2>
 
 <p align="center">
@@ -38,7 +45,7 @@
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Seavik2142&style=for-the-badge&color=blueviolet&label=PROFILE+VIEWS" alt="Profile Views"/>
+  <img src="https://komarev.com/ghpvc/?username=Seavik2142&style=for-the-badge&color=7C3AED&label=PROFILE+VIEWS" alt="Profile Views"/>
 </p>
 
 ---
@@ -186,9 +193,7 @@ A Flutter mobile application designed for practicing driving license examination
 </p>
 
 <p align="center">
-  <a href="https://github.com/lowlighter/metrics">
-    <img width="70%" src="https://streak-stats.demolab.com?user=Seavik2142&theme=tokyonight&hide_border=true&border_radius=10" alt="GitHub Contribution Streak"/>
-  </a>
+  <img width="70%" src="https://streak-stats.demolab.com?user=Seavik2142&theme=tokyonight&hide_border=true&border_radius=10" alt="GitHub Contribution Streak"/>
 </p>
 
 ---
@@ -248,6 +253,8 @@ and the output branch contains both SVG files.
 </p>
 -->
 
+---
+
 <!-- ========================================================= -->
 <!--                   HUGGING FACE & AI RESEARCH               -->
 <!-- ========================================================= -->
@@ -295,7 +302,7 @@ I explore open-source language models and experiment with domain-specific AI app
 ## 📚 Currently Learning
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&duration=2500&pause=800&color=A78BFA&center=true&vCenter=true&width=700&height=35&lines=Advanced+Python+%26+Software+Architecture;Machine+Learning+%26+Deep+Learning;LLM+Engineering+%26+Fine-Tuning;AI+Agents+%26+Intelligent+Applications;Open-Source+Engineering+%26+Collaboration" alt="Learning Animation"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&duration=2500&pause=800&color=A78BFA&center=true&vCenter=true&width=700&height=40&lines=Advanced+Python+%26+Software+Architecture;Machine+Learning+%26+Deep+Learning;LLM+Engineering+%26+Fine-Tuning;AI+Agents+%26+Intelligent+Applications;Open-Source+Engineering+%26+Collaboration" alt="Learning Animation"/>
 </p>
 
 ---
@@ -345,7 +352,7 @@ I'm especially interested in long-term collaboration, meaningful engineering con
 <!-- ========================================================= -->
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=17&pause=1000&color=36BCF7&center=true&vCenter=true&width=650&height=40&lines=Thanks+for+visiting+my+profile!+%E2%9C%A8;Let's+build+something+meaningful.+%F0%9F%9A%80;Keep+learning.+Keep+building.+%F0%9F%92%BB" alt="Closing Animation"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=17&pause=1000&color=67E8F9&center=true&vCenter=true&width=650&height=40&lines=Thanks+for+visiting+my+profile!+%E2%9C%A8;Let's+build+something+meaningful.+%F0%9F%9A%80;Keep+learning.+Keep+building.+%F0%9F%92%BB" alt="Closing Animation"/>
 </p>
 
 <p align="center">
@@ -353,9 +360,13 @@ I'm especially interested in long-term collaboration, meaningful engineering con
 </p>
 
 <!-- ========================================================= -->
-<!--                     ANIMATED FOOTER                        -->
+<!--                    PREMIUM ANIMATED FOOTER                  -->
 <!-- ========================================================= -->
 
 <p align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:2C5364,50:203A43,100:0F2027&height=130&section=footer&animation=twinkling" alt="Animated Footer"/>
+  <img
+    width="100%"
+    src="https://capsule-render.vercel.app/api?type=venom&color=0:06B6D4,35:6D28D9,70:312E81,100:080B1E&height=160&section=footer&animation=twinkling"
+    alt="Futuristic Neon Footer"
+  />
 </p>
