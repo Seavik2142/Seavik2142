@@ -147,13 +147,26 @@ A Flutter mobile application for practicing driving license examination question
 <p align="center">
   <img
     width="49%"
-    src="https://github-readme-stats-eight-theta.vercel.app/api?username=Seavik2142&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&rank_icon=github"
+    src="https://raw.githubusercontent.com/Seavik2142/Seavik2142/main/profile-summary-card-output/tokyo_night/3-stats.svg"
     alt="GitHub Statistics"
   />
   <img
     width="49%"
-    src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Seavik2142&layout=compact&theme=tokyonight&hide_border=true&langs_count=8"
+    src="https://raw.githubusercontent.com/Seavik2142/Seavik2142/main/profile-summary-card-output/tokyo_night/2-most-commit-language.svg"
     alt="Most Used Languages"
+  />
+</p>
+
+<p align="center">
+  <img
+    width="49%"
+    src="https://raw.githubusercontent.com/Seavik2142/Seavik2142/main/profile-summary-card-output/tokyo_night/1-repos-per-language.svg"
+    alt="Repos Per Language"
+  />
+  <img
+    width="49%"
+    src="https://raw.githubusercontent.com/Seavik2142/Seavik2142/main/profile-summary-card-output/tokyo_night/4-productive-time.svg"
+    alt="Productive Time"
   />
 </p>
 
@@ -172,20 +185,8 @@ A Flutter mobile application for practicing driving license examination question
 <p align="center">
   <img
     width="100%"
-    src="https://github-readme-activity-graph.vercel.app/graph?username=Seavik2142&bg_color=1a1b27&color=70a5fd&line=bf91f3&point=38bdae&area=true&hide_border=true"
+    src="https://raw.githubusercontent.com/Seavik2142/Seavik2142/main/profile-summary-card-output/tokyo_night/0-profile-details.svg"
     alt="GitHub Contribution Activity Graph"
-  />
-</p>
-
----
-
-## 🏆 GitHub Achievements
-
-<p align="center">
-  <img
-    width="100%"
-    src="https://github-profile-trophy-kannan.vercel.app/?username=Seavik2142&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&row=1"
-    alt="GitHub Profile Trophies"
   />
 </p>
 
