@@ -1,4 +1,3 @@
- 
 <!-- ===================================================== -->
 <!--                 SEAVIK | GITHUB PROFILE               -->
 <!-- ===================================================== -->
@@ -148,12 +147,12 @@ A Flutter mobile application for practicing driving license examination question
 <p align="center">
   <img
     width="49%"
-    src="https://github-readme-stats.vercel.app/api?username=Seavik2142&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&rank_icon=github"
+    src="https://github-readme-stats-eight-theta.vercel.app/api?username=Seavik2142&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&rank_icon=github"
     alt="GitHub Statistics"
   />
   <img
     width="49%"
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Seavik2142&layout=compact&theme=tokyonight&hide_border=true&langs_count=8"
+    src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Seavik2142&layout=compact&theme=tokyonight&hide_border=true&langs_count=8"
     alt="Most Used Languages"
   />
 </p>
@@ -173,7 +172,7 @@ A Flutter mobile application for practicing driving license examination question
 <p align="center">
   <img
     width="100%"
-    src="https://github-readme-activity-graph.vercel.app/graph?username=Seavik2142&theme=tokyo-night&hide_border=true&area=true&radius=12"
+    src="https://github-readme-activity-graph.vercel.app/graph?username=Seavik2142&bg_color=1a1b27&color=70a5fd&line=bf91f3&point=38bdae&area=true&hide_border=true"
     alt="GitHub Contribution Activity Graph"
   />
 </p>
@@ -185,7 +184,7 @@ A Flutter mobile application for practicing driving license examination question
 <p align="center">
   <img
     width="100%"
-    src="https://github-profile-trophy.vercel.app/?username=Seavik2142&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&row=1"
+    src="https://github-profile-trophy-kannan.vercel.app/?username=Seavik2142&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&row=1"
     alt="GitHub Profile Trophies"
   />
 </p>
