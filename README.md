@@ -147,19 +147,6 @@ A Flutter mobile application for practicing driving license examination question
 <p align="center">
   <img
     width="49%"
-    src="https://raw.githubusercontent.com/Seavik2142/Seavik2142/main/profile-summary-card-output/tokyonight/3-stats.svg"
-    alt="GitHub Statistics"
-  />
-  <img
-    width="49%"
-    src="https://raw.githubusercontent.com/Seavik2142/Seavik2142/main/profile-summary-card-output/tokyonight/2-most-commit-language.svg"
-    alt="Most Used Languages"
-  />
-</p>
-
-<p align="center">
-  <img
-    width="49%"
     src="https://raw.githubusercontent.com/Seavik2142/Seavik2142/main/profile-summary-card-output/tokyonight/1-repos-per-language.svg"
     alt="Repos Per Language"
   />
