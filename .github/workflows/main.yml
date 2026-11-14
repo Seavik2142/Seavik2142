@@ -1,4 +1,4 @@
-name: Generate Profile Assets
+name: Generate Contribution Snake
 
 on:
   schedule:
@@ -18,15 +18,6 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
-
-      - name: Generate Summary Cards
-        uses: vn7n24fzkq/github-profile-summary-cards@release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          USERNAME: Seavik2142
-          THEME: tokyonight
-          UTC_OFFSET: 7
 
       - name: Generate Snake
         uses: Platane/snk/svg-only@v3

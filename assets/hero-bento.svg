@@ -1,0 +1,173 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="100%" height="100%" fill="none">
+  <defs>
+    <style>
+      .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif; }
+      .mono { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace; }
+    </style>
+    <radialGradient id="heroGlow" cx="35%" cy="0%" r="60%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.05" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- LEFT HERO CARD (760px) -->
+  <rect x="1" y="1" width="758" height="378" rx="18" fill="#111114" stroke="#27272A" stroke-width="1.5" />
+  <rect x="1" y="1" width="758" height="378" rx="18" fill="url(#heroGlow)" />
+
+  <!-- Status Pill -->
+  <rect x="36" y="34" width="318" height="28" rx="14" fill="#064E3B" fill-opacity="0.3" stroke="#10B981" stroke-opacity="0.35" stroke-width="1" />
+  <circle cx="52" cy="48" r="4" fill="#34D399" />
+  <text x="66" y="52" class="sans" fill="#A7F3D0" font-size="12" font-weight="600">
+    Available for AI &amp; Backend Engineering Roles
+  </text>
+
+  <!-- Name & Handle -->
+  <text x="36" y="108" class="sans" fill="#FAFAFA" font-size="40" font-weight="700" letter-spacing="-1">
+    Mao Seavik
+  </text>
+  <text x="262" y="106" class="mono" fill="#71717A" font-size="16" font-weight="500">
+    @Seavik2142
+  </text>
+
+  <!-- Role Subtitle -->
+  <text x="36" y="140" class="sans" fill="#E4E4E7" font-size="18" font-weight="500" letter-spacing="-0.2">
+    AI Engineer &amp; Backend Software Developer
+  </text>
+
+  <!-- Bio Paragraph -->
+  <text x="36" y="178" class="sans" fill="#A1A1AA" font-size="14.5" font-weight="400">
+    Software developer based in Cambodia focused on fine-tuning open-source language models
+  </text>
+  <text x="36" y="201" class="sans" fill="#A1A1AA" font-size="14.5" font-weight="400">
+    (Qwen2.5, PEFT/LoRA, GGUF), building conversational AI systems with Google Gemini, and
+  </text>
+  <text x="36" y="224" class="sans" fill="#A1A1AA" font-size="14.5" font-weight="400">
+    architecting reliable backend services in Python and TypeScript.
+  </text>
+
+  <!-- Location & University Meta -->
+  <rect x="36" y="244" width="200" height="28" rx="8" fill="#18181B" stroke="#27272A" stroke-width="1" />
+  <text x="50" y="262" class="sans" fill="#D4D4D8" font-size="12.5" font-weight="500">
+    Phnom Penh, Cambodia
+  </text>
+
+  <rect x="246" y="244" width="286" height="28" rx="8" fill="#18181B" stroke="#27272A" stroke-width="1" />
+  <text x="260" y="262" class="sans" fill="#D4D4D8" font-size="12.5" font-weight="500">
+    Norton University · Computer Studies
+  </text>
+
+  <!-- Divider -->
+  <line x1="36" y1="292" x2="724" y2="292" stroke="#27272A" stroke-width="1" />
+
+  <!-- Bottom 4 KPI Metrics -->
+  <text x="36" y="318" class="sans" fill="#71717A" font-size="11.5" font-weight="500">
+    PUBLIC REPOSITORIES
+  </text>
+  <text x="36" y="350" class="sans" fill="#FAFAFA" font-size="24" font-weight="700">
+    23
+  </text>
+
+  <line x1="208" y1="304" x2="208" y2="358" stroke="#27272A" stroke-width="1" />
+  <text x="228" y="318" class="sans" fill="#71717A" font-size="11.5" font-weight="500">
+    PUBLISHED AI MODELS
+  </text>
+  <text x="228" y="350" class="sans" fill="#FAFAFA" font-size="24" font-weight="700">
+    4
+  </text>
+
+  <line x1="400" y1="304" x2="400" y2="358" stroke="#27272A" stroke-width="1" />
+  <text x="420" y="318" class="sans" fill="#71717A" font-size="11.5" font-weight="500">
+    CORE STACK
+  </text>
+  <text x="420" y="348" class="sans" fill="#FAFAFA" font-size="18" font-weight="600">
+    Python · TS · FastAPI
+  </text>
+
+  <line x1="608" y1="304" x2="608" y2="358" stroke="#27272A" stroke-width="1" />
+  <text x="628" y="318" class="sans" fill="#71717A" font-size="11.5" font-weight="500">
+    CREDENTIALS
+  </text>
+  <text x="628" y="350" class="sans" fill="#FAFAFA" font-size="24" font-weight="700">
+    3
+  </text>
+
+  <!-- RIGHT ENGINEERING FOCUS CARD (420px) -->
+  <rect x="781" y="1" width="418" height="378" rx="18" fill="#111114" stroke="#27272A" stroke-width="1.5" />
+
+  <text x="814" y="46" class="sans" fill="#FAFAFA" font-size="18" font-weight="600" letter-spacing="-0.3">
+    Engineering Focus
+  </text>
+  <text x="814" y="68" class="sans" fill="#71717A" font-size="12.5" font-weight="400">
+    Core areas of research and production work
+  </text>
+
+  <!-- Focus Item 1 -->
+  <circle cx="820" cy="101" r="3" fill="#A1A1AA" />
+  <text x="834" y="105" class="sans" fill="#F4F4F5" font-size="13.5" font-weight="600">
+    LLM Fine-Tuning:
+  </text>
+  <text x="950" y="105" class="sans" fill="#A1A1AA" font-size="13.5" font-weight="400">
+    SFT, PEFT/LoRA adapters,
+  </text>
+  <text x="834" y="125" class="sans" fill="#A1A1AA" font-size="13.5" font-weight="400">
+    and GGUF quantization on Qwen2.5 models.
+  </text>
+
+  <!-- Focus Item 2 -->
+  <circle cx="820" cy="155" r="3" fill="#A1A1AA" />
+  <text x="834" y="159" class="sans" fill="#F4F4F5" font-size="13.5" font-weight="600">
+    Backend Architecture:
+  </text>
+  <text x="980" y="159" class="sans" fill="#A1A1AA" font-size="13.5" font-weight="400">
+    Async REST APIs in
+  </text>
+  <text x="834" y="179" class="sans" fill="#A1A1AA" font-size="13.5" font-weight="400">
+    Python (FastAPI, Flask) and PostgreSQL.
+  </text>
+
+  <!-- Focus Item 3 -->
+  <circle cx="820" cy="209" r="3" fill="#A1A1AA" />
+  <text x="834" y="213" class="sans" fill="#F4F4F5" font-size="13.5" font-weight="600">
+    Product Engineering:
+  </text>
+  <text x="974" y="213" class="sans" fill="#A1A1AA" font-size="13.5" font-weight="400">
+    Full-stack web apps,
+  </text>
+  <text x="834" y="233" class="sans" fill="#A1A1AA" font-size="13.5" font-weight="400">
+    Telegram Mini Apps, and Flutter mobile.
+  </text>
+
+  <!-- Divider -->
+  <line x1="814" y1="256" x2="1166" y2="256" stroke="#27272A" stroke-width="1" />
+
+  <!-- Primary Languages Bar -->
+  <text x="814" y="282" class="sans" fill="#E4E4E7" font-size="13" font-weight="600">
+    Primary Languages
+  </text>
+  <text x="1046" y="282" class="sans" fill="#71717A" font-size="12" font-weight="400">
+    Across 23 repositories
+  </text>
+
+  <!-- Progress Bar Segments -->
+  <rect x="814" y="296" width="126" height="8" rx="4" fill="#3572A5" />
+  <rect x="944" y="296" width="98" height="8" rx="2" fill="#3178C6" />
+  <rect x="1046" y="296" width="68" height="8" rx="2" fill="#F7DF1E" />
+  <rect x="1118" y="296" width="48" height="8" rx="4" fill="#00B4AB" />
+
+  <!-- Language Legend -->
+  <circle cx="820" cy="326" r="4" fill="#3572A5" />
+  <text x="832" y="330" class="sans" fill="#D4D4D8" font-size="12.5" font-weight="500">Python</text>
+  <text x="936" y="330" class="sans" fill="#71717A" font-size="12.5">36%</text>
+
+  <circle cx="1002" cy="326" r="4" fill="#3178C6" />
+  <text x="1014" y="330" class="sans" fill="#D4D4D8" font-size="12.5" font-weight="500">TypeScript</text>
+  <text x="1138" y="330" class="sans" fill="#71717A" font-size="12.5">28%</text>
+
+  <circle cx="820" cy="352" r="4" fill="#F7DF1E" />
+  <text x="832" y="356" class="sans" fill="#D4D4D8" font-size="12.5" font-weight="500">JavaScript</text>
+  <text x="936" y="356" class="sans" fill="#71717A" font-size="12.5">20%</text>
+
+  <circle cx="1002" cy="352" r="4" fill="#00B4AB" />
+  <text x="1014" y="356" class="sans" fill="#D4D4D8" font-size="12.5" font-weight="500">Dart &amp; PHP</text>
+  <text x="1138" y="356" class="sans" fill="#71717A" font-size="12.5">16%</text>
+</svg>

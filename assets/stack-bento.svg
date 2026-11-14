@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" width="100%" height="100%" fill="none">
+  <defs>
+    <style>
+      .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif; }
+    </style>
+  </defs>
+
+  <!-- LEFT: TECHNICAL STACK BENTO (w=680) -->
+  <rect x="1" y="1" width="680" height="278" rx="16" fill="#111114" stroke="#27272A" stroke-width="1.5" />
+  <text x="30" y="42" class="sans" fill="#FAFAFA" font-size="18" font-weight="600" letter-spacing="-0.3">
+    Technical Stack
+  </text>
+  <text x="30" y="62" class="sans" fill="#71717A" font-size="12.5">
+    Languages, frameworks, and ML tooling used in production
+  </text>
+
+  <!-- Row 1: AI & ML -->
+  <text x="30" y="102" class="sans" fill="#A1A1AA" font-size="12.5" font-weight="600">
+    AI &amp; LLMs
+  </text>
+  <rect x="160" y="84" width="490" height="28" rx="8" fill="#18181B" stroke="#27272A" />
+  <text x="176" y="102" class="sans" fill="#E4E4E7" font-size="12.5" font-weight="500">
+    PyTorch · Hugging Face · PEFT / LoRA · TRL (SFT) · Qwen2.5 · Gemini API
+  </text>
+
+  <!-- Row 2: Backend & APIs -->
+  <text x="30" y="146" class="sans" fill="#A1A1AA" font-size="12.5" font-weight="600">
+    Backend &amp; APIs
+  </text>
+  <rect x="160" y="128" width="490" height="28" rx="8" fill="#18181B" stroke="#27272A" />
+  <text x="176" y="146" class="sans" fill="#E4E4E7" font-size="12.5" font-weight="500">
+    Python · FastAPI · Flask · Node.js · Laravel (PHP) · REST Microservices
+  </text>
+
+  <!-- Row 3: Frontend & Mobile -->
+  <text x="30" y="190" class="sans" fill="#A1A1AA" font-size="12.5" font-weight="600">
+    Frontend &amp; Mobile
+  </text>
+  <rect x="160" y="172" width="490" height="28" rx="8" fill="#18181B" stroke="#27272A" />
+  <text x="176" y="190" class="sans" fill="#E4E4E7" font-size="12.5" font-weight="500">
+    TypeScript · JavaScript · React · Next.js · Flutter (Dart) · Tailwind CSS
+  </text>
+
+  <!-- Row 4: Data & DevOps -->
+  <text x="30" y="234" class="sans" fill="#A1A1AA" font-size="12.5" font-weight="600">
+    Data &amp; DevOps
+  </text>
+  <rect x="160" y="216" width="490" height="28" rx="8" fill="#18181B" stroke="#27272A" />
+  <text x="176" y="234" class="sans" fill="#E4E4E7" font-size="12.5" font-weight="500">
+    PostgreSQL · PL/pgSQL · MySQL · Docker · Git · GitHub Actions · Linux
+  </text>
+
+
+  <!-- RIGHT: EXPERIENCE & EDUCATION BENTO (x=699, w=500) -->
+  <rect x="699" y="1" width="500" height="278" rx="16" fill="#111114" stroke="#27272A" stroke-width="1.5" />
+  <text x="728" y="42" class="sans" fill="#FAFAFA" font-size="18" font-weight="600" letter-spacing="-0.3">
+    Experience &amp; Education
+  </text>
+  <text x="728" y="62" class="sans" fill="#71717A" font-size="12.5">
+    Industry internship, leadership, and academic standing
+  </text>
+
+  <!-- Credential 1 -->
+  <circle cx="734" cy="96" r="3.5" fill="#34D399" />
+  <text x="748" y="100" class="sans" fill="#F4F4F5" font-size="13.5" font-weight="600">
+    Backend Software Engineering Intern
+  </text>
+  <text x="748" y="119" class="sans" fill="#A1A1AA" font-size="12.5">
+    KRU IT Solution &amp; ETEC Center · Oct 2026
+  </text>
+
+  <!-- Credential 2 -->
+  <circle cx="734" cy="154" r="3.5" fill="#FACC15" />
+  <text x="748" y="158" class="sans" fill="#F4F4F5" font-size="13.5" font-weight="600">
+    Team Lead — AI Expert System &amp; Innovation
+  </text>
+  <text x="748" y="177" class="sans" fill="#A1A1AA" font-size="12.5">
+    Norton University (4-Member Team) · Sep 2026
+  </text>
+
+  <!-- Credential 3 -->
+  <circle cx="734" cy="212" r="3.5" fill="#A1A1AA" />
+  <text x="748" y="216" class="sans" fill="#F4F4F5" font-size="13.5" font-weight="600">
+    B.Sc. in Computer Studies (Software Development)
+  </text>
+  <text x="748" y="235" class="sans" fill="#A1A1AA" font-size="12.5">
+    Norton University, Cambodia · Distinguished Standing
+  </text>
+</svg>
