@@ -1,166 +1,179 @@
-# Hi, I'm Seavik 👋
+<!-- ==================== ANIMATED HEADER ==================== -->
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=23&pause=1000&color=36BCF7&center=true&vCenter=true&width=800&lines=AI+Engineering+Enthusiast;Software+Developer;Exploring+Machine+Learning+%26+LLMs;Building+Practical+AI+Applications;Open+to+Remote+Collaboration" alt="Typing SVG" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=220&section=header&text=SEAVIK&fontSize=65&fontColor=ffffff&fontAlignY=35&desc=AI%20ENGINEERING%20%7C%20SOFTWARE%20DEVELOPMENT%20%7C%20OPEN%20SOURCE&descSize=15&descAlignY=58&animation=twinkling" />
+</p>
+
+<!-- ==================== TYPING ANIMATION ==================== -->
+
+<h2 align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=23&duration=3000&pause=900&color=36BCF7&center=true&vCenter=true&width=850&height=55&lines=Hello%2C+I'm+Seavik+%F0%9F%91%8B;AI+Engineering+Enthusiast+%F0%9F%A4%96;Python+%26+Backend+Developer+%F0%9F%92%BB;Machine+Learning+%7C+LLMs+%7C+AI+Agents;Building+Real-World+AI+Applications;Always+Learning.+Always+Building.+%E2%9C%A8" alt="Typing Animation" />
+</h2>
+
+<p align="center">
+  <b>Software Development Student | AI Engineering Enthusiast | Open-Source Contributor</b>
 </p>
 
 <p align="center">
-  <strong>AI Engineering Enthusiast | Python Developer | Software Development Student</strong>
-</p>
-
-<p align="center">
-  Cambodia 🇰🇭 · Interested in AI Engineering, Machine Learning, and Open Source
+  🇰🇭 Cambodia &nbsp; • &nbsp; 🌍 International Collaboration &nbsp; • &nbsp; 💡 Continuous Learning
 </p>
 
 <p align="center">
   <a href="https://github.com/Seavik2142">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
   </a>
   <a href="https://huggingface.co/Maoseavik">
-    <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face"/>
+    <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
   </a>
   <a href="https://www.linkedin.com/in/mao-seavik-003a0a372">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
   <a href="https://seavik-gamma.vercel.app/">
-    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/>
+    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
   </a>
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Seavik2142&style=for-the-badge&color=blueviolet&label=PROFILE+VIEWS"/>
 </p>
 
 ---
 
 ## 👨‍💻 About Me
 
-I'm a software development student from Cambodia with a strong interest in Artificial Intelligence and software engineering.
+I'm a software development student from Cambodia passionate about Artificial Intelligence, Machine Learning, and software engineering.
 
-My primary focus is exploring how AI technologies can solve practical problems through intelligent applications, machine learning models, and backend systems.
+I enjoy experimenting with open-source AI models, developing practical applications, and exploring how intelligent systems can solve real-world problems.
 
-I'm particularly interested in:
+**Current Focus**
+- 🤖 AI Engineering, Machine Learning, and Deep Learning
+- 🧠 Large Language Models, Fine-Tuning, and AI Agents
+- 🐍 Python Backend Development and API Engineering
+- 🔬 Open-Source Model Experimentation
+- 🌍 International Collaboration and Open-Source Contributions
 
-- **AI Engineering:** Machine Learning, LLMs, AI applications, and model integration.
-- **LLM Development:** Fine-tuning, open-source models, Hugging Face, and inference.
-- **Software Engineering:** Python, backend development, APIs, and application architecture.
-- **Open Source:** Collaborating with international developers and contributing to real-world projects.
-
-I enjoy learning through hands-on development, experimenting with new technologies, and working with teams to turn ideas into practical solutions.
-
-### 🎯 Career Interests
-
-- AI Engineer Internships
-- Junior AI / Machine Learning Engineering
-- Python Backend Development
-- Remote and part-time engineering opportunities
-- International open-source collaboration
+**Career Interests:** AI Engineer Internships · Remote Opportunities · Python Backend Development · Research Collaboration
 
 ---
 
-## 🛠️ Technical Skills
+## ⚡ Technology Stack
 
-### Programming Languages
-
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white"/>
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,js,php,dart,html,css&theme=dark&perline=6" />
 </p>
 
-### Frameworks & Development
-
-<p>
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white"/>
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white"/>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=react,nodejs,flask,fastapi,laravel,flutter&theme=dark&perline=6" />
 </p>
 
-### AI, Machine Learning & LLMs
-
-<p>
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Transformers-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
-  <img src="https://img.shields.io/badge/PEFT%20%2F%20LoRA-412991?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Gemini%20API-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Qwen-615EFF?style=for-the-badge"/>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=pytorch,postgres,git,github,vscode,docker&theme=dark&perline=6" />
 </p>
 
-### Databases & Developer Tools
-
-<p>
-  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white"/>
+<p align="center">
+  <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Transformers-FFD21E?style=flat-square&logo=huggingface&logoColor=black"/>
+  <img src="https://img.shields.io/badge/PEFT%20%2F%20LoRA-412991?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Google%20Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Qwen-615EFF?style=flat-square"/>
 </p>
 
 ---
 
 ## 🚀 Featured Projects
 
-### 1. ChhlatAI — AI-Powered Application
+### 🤖 ChhlatAI
+An AI-focused application exploring the integration of Large Language Models using Google's Gemini models.
 
-An AI-focused software project exploring the integration of Large Language Models into practical applications.
+**Tech:** Gemini API · LLM Integration · Software Development
 
-**Technical Focus:** Gemini API · LLM Integration · AI Application Development
+[![Repository](https://img.shields.io/badge/View_Repository-181717?style=for-the-badge&logo=github)](https://github.com/Seavik2142/ChhlatAI)
 
-[View Repository →](https://github.com/Seavik2142/ChhlatAI)
+### 🌱 Agricultural Expert System
+An academic project applying AI techniques to agricultural knowledge and expert-system applications.
 
-### 2. Agricultural Expert System — Domain-Specific AI
+Work includes agricultural data collection, data preparation, and Qwen-based model fine-tuning experiments.
 
-An academic AI project focused on agricultural knowledge and expert-system applications.
-
-Work includes agricultural data collection and preparation, along with experimentation using Qwen-based language models and fine-tuning techniques.
-
-**Technical Focus:** Python · Qwen2.5-3B · SFT · LoRA · Hugging Face
+**Tech:** Python · Qwen2.5-3B · SFT · PEFT · LoRA · Hugging Face
 
 **Published Models:**
-
 - [Agricultural Qwen LoRA](https://huggingface.co/Maoseavik/agri-qwen3b-lora)
-- [Agricultural System GGUF](https://huggingface.co/Maoseavik/agrisystem-qwen2.5-3b-gguf)
-- [Agricultural System Adapter](https://huggingface.co/Maoseavik/agrisystem-qwen2.5-3b-adapter)
-- [Agricultural Expert Adapter](https://huggingface.co/Maoseavik/agri-expert-adapter)
+- [Agricultural GGUF](https://huggingface.co/Maoseavik/agrisystem-qwen2.5-3b-gguf)
+- [Agricultural Adapter](https://huggingface.co/Maoseavik/agrisystem-qwen2.5-3b-adapter)
+- [Expert System Adapter](https://huggingface.co/Maoseavik/agri-expert-adapter)
 
-[Explore My Hugging Face Profile →](https://huggingface.co/Maoseavik)
+### 🛒 Mini App
+A product-selling mini application with Telegram integration.
 
-### 3. Mini App — Product-Selling Application
-
-A mini application for selling products with Telegram integration.
-
-**Technical Focus:** Application Development · Product Management · Telegram Integration
+**Tech:** Application Development · Telegram Integration
 
 [View Repository →](https://github.com/Seavik2142/mini_app)
 
-### 4. Driving System — Mobile Application
+### 🚗 Driving System
+A Flutter mobile application for practicing driving license examination questions.
 
-A Flutter application designed to help users practice driving license examination questions.
-
-**Technical Focus:** Flutter · Dart · Mobile Application Development
+**Tech:** Flutter · Dart · Mobile Development
 
 [View Repository →](https://github.com/Seavik2142/driving-system)
 
 ---
 
-## 🤗 Hugging Face & AI Model Development
+## 📊 GitHub Analytics
 
-I use Hugging Face to explore open-source AI models, experiment with fine-tuning techniques, and publish models related to domain-specific AI applications.
+<p align="center">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Seavik2142&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&rank_icon=github" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Seavik2142&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&hide_progress=true" />
+</p>
 
-**Areas of Experience and Exploration:**
+<p align="center">
+  <img width="70%" src="https://streak-stats.demolab.com?user=Seavik2142&theme=tokyonight&hide_border=true&border_radius=10" />
+</p>
 
-- Open-source Large Language Models
+---
+
+## 📈 Contribution Activity
+
+<p align="center">
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Seavik2142&theme=tokyo-night&hide_border=true&area=true&radius=12" />
+</p>
+
+---
+
+## 🏆 GitHub Achievements
+
+<p align="center">
+  <img width="100%" src="https://github-profile-trophy.vercel.app/?username=Seavik2142&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&row=1" />
+</p>
+
+---
+
+## 🐍 Contribution Snake Animation
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Seavik2142/Seavik2142/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Seavik2142/Seavik2142/output/github-snake.svg" />
+    <img alt="GitHub Contribution Snake Animation" src="https://raw.githubusercontent.com/Seavik2142/Seavik2142/output/github-snake.svg" />
+  </picture>
+</p>
+
+---
+
+## 🤗 Hugging Face & AI Research
+
+I explore open-source language models and experiment with domain-specific AI applications.
+
+**Areas of Interest**
+- Open-source LLMs
 - Qwen model experimentation
 - Supervised Fine-Tuning (SFT)
 - Parameter-Efficient Fine-Tuning (PEFT)
-- LoRA adapters and GGUF model formats
-- Model integration and inference
+- LoRA adapters and GGUF models
+- AI inference and application integration
 
 <p align="center">
   <a href="https://huggingface.co/Maoseavik">
-    <img src="https://img.shields.io/badge/Explore%20My%20AI%20Models-Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Explore My Models"/>
+    <img src="https://img.shields.io/badge/Explore_My_Models-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
   </a>
 </p>
 
@@ -171,31 +184,23 @@ I use Hugging Face to explore open-source AI models, experiment with fine-tuning
 **Team Leader — Academic Research & Competitions**
 
 - Led a four-member student team.
-- Coordinated team activities, responsibilities, and project progress.
-- Worked on academic research and software development competitions.
-- Developed communication, teamwork, problem-solving, and collaboration skills.
-
-I value collaborative development and enjoy learning from people with different technical backgrounds.
+- Coordinated responsibilities and team activities.
+- Participated in academic research and software development competitions.
+- Developed teamwork, communication, and problem-solving skills.
 
 ---
 
 ## 📚 Currently Learning
 
-I'm continuously improving my knowledge and practical skills in:
-
-- Python and Object-Oriented Programming
-- Machine Learning and Deep Learning
-- Large Language Models and Fine-Tuning
-- Hugging Face Transformers and PEFT
-- AI Agents and intelligent applications
-- Backend engineering and software architecture
-- Open-source contribution and collaborative development
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&duration=2500&pause=800&color=A78BFA&center=true&vCenter=true&width=700&height=35&lines=Advanced+Python+%26+Software+Architecture;Machine+Learning+%26+Deep+Learning;LLM+Engineering+%26+Fine-Tuning;AI+Agents+%26+Intelligent+Applications;Open-Source+Engineering+%26+Collaboration" />
+</p>
 
 ---
 
 ## 🤝 Open to Collaboration
 
-I'm interested in working with developers, researchers, and open-source communities on:
+Interested in collaborating with developers, researchers, and open-source communities on:
 
 - Artificial Intelligence and Machine Learning
 - LLM applications and open-source models
@@ -204,19 +209,35 @@ I'm interested in working with developers, researchers, and open-source communit
 - Research and educational technology
 - Full-stack software development
 
-I'm particularly interested in long-term collaboration, contributing to meaningful projects, and learning from experienced engineers and maintainers.
+I'm especially interested in long-term collaboration, meaningful engineering contributions, and learning from experienced developers and maintainers.
 
 ---
 
-## 📫 Connect With Me
+## 📫 Let's Connect
 
-<p>
-  <a href="https://github.com/Seavik2142">GitHub</a> ·
-  <a href="https://huggingface.co/Maoseavik">Hugging Face</a> ·
-  <a href="https://www.linkedin.com/in/mao-seavik-003a0a372">LinkedIn</a> ·
-  <a href="https://seavik-gamma.vercel.app/">Portfolio</a>
+<p align="center">
+  <a href="https://github.com/Seavik2142">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+  <a href="https://huggingface.co/Maoseavik">
+    <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
+  </a>
+  <a href="https://www.linkedin.com/in/mao-seavik-003a0a372">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+  <a href="https://seavik-gamma.vercel.app/">
+    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
+  </a>
 </p>
 
 <p align="center">
-  <i>"Building practical solutions, learning continuously, and contributing to the world of technology."</i>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=17&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&height=40&lines=Thanks+for+visiting+my+profile!+%E2%9C%A8;Let's+build+something+meaningful.+%F0%9F%9A%80;Keep+learning.+Keep+building.+%F0%9F%92%BB" />
+</p>
+
+<p align="center">
+  <i>"Building practical solutions, exploring intelligent systems, and growing through collaboration."</i>
+</p>
+
+<p align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:2C5364,50:203A43,100:0F2027&height=130&section=footer&animation=twinkling"/>
 </p>
