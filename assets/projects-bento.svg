@@ -1,18 +1,100 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%" fill="none">
   <defs>
     <style>
-      .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif; }
-      .mono { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, Helvetica, Arial, sans-serif; }
+      .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; }
     </style>
+
+    <!-- Subtle Micro-Grid Pattern -->
+    <pattern id="cardGrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#FFFFFF" stroke-opacity="0.028" stroke-width="1" />
+    </pattern>
+
+    <!-- Card Clip Paths -->
+    <clipPath id="clipCard1"><rect x="1" y="1" width="590" height="200" rx="16" /></clipPath>
+    <clipPath id="clipCard2"><rect x="609" y="1" width="590" height="200" rx="16" /></clipPath>
+    <clipPath id="clipCard3"><rect x="1" y="219" width="590" height="200" rx="16" /></clipPath>
+    <clipPath id="clipCard4"><rect x="609" y="219" width="590" height="200" rx="16" /></clipPath>
+
+    <!-- Ambient Glow Gradients -->
+    <radialGradient id="glowCyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.16" />
+      <stop offset="55%" stop-color="#6366F1" stop-opacity="0.06" />
+      <stop offset="100%" stop-color="#09090B" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="glowAmber" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FACC15" stop-opacity="0.15" />
+      <stop offset="55%" stop-color="#10B981" stop-opacity="0.06" />
+      <stop offset="100%" stop-color="#09090B" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="glowEmerald" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#34D399" stop-opacity="0.15" />
+      <stop offset="55%" stop-color="#38BDF8" stop-opacity="0.06" />
+      <stop offset="100%" stop-color="#09090B" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="glowViolet" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#818CF8" stop-opacity="0.16" />
+      <stop offset="55%" stop-color="#2DD4BF" stop-opacity="0.06" />
+      <stop offset="100%" stop-color="#09090B" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Border Shimmer Gradients -->
+    <linearGradient id="beamCyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0" />
+      <stop offset="50%" stop-color="#38BDF8" stop-opacity="0.65" />
+      <stop offset="100%" stop-color="#818CF8" stop-opacity="0" />
+    </linearGradient>
+
+    <linearGradient id="beamAmber" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FACC15" stop-opacity="0" />
+      <stop offset="50%" stop-color="#FACC15" stop-opacity="0.65" />
+      <stop offset="100%" stop-color="#34D399" stop-opacity="0" />
+    </linearGradient>
+
+    <linearGradient id="beamEmerald" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34D399" stop-opacity="0" />
+      <stop offset="50%" stop-color="#34D399" stop-opacity="0.65" />
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Bar Shimmer Overlay -->
+    <linearGradient id="barShimmer" x1="0" y1="0" x2="120" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0" />
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0" />
+      <animateTransform attributeName="gradientTransform" type="translate" from="-200 0" to="1200 0" dur="4.5s" repeatCount="indefinite" />
+    </linearGradient>
   </defs>
 
-  <!-- CARD 1: ChhlatAI (Top-Left: x=1, y=1, w=590, h=200) -->
-  <rect x="1" y="1" width="590" height="200" rx="16" fill="#111114" stroke="#27272A" stroke-width="1.5" />
-  <text x="30" y="36" class="sans" fill="#71717A" font-size="12" font-weight="500">
+  <!-- ======================================================================= -->
+  <!-- CARD 1: ChhlatAI (Top-Left: x=1, y=1, w=590, h=200)                     -->
+  <!-- ======================================================================= -->
+  <g clip-path="url(#clipCard1)">
+    <rect x="1" y="1" width="590" height="200" rx="16" fill="#0E0E12" />
+    <rect x="1" y="1" width="590" height="200" fill="url(#cardGrid)" />
+    <!-- Animated Ambient Glow Orb -->
+    <circle cx="480" cy="40" r="210" fill="url(#glowCyan)">
+      <animate attributeName="cx" values="480;340;510;480" dur="9s" repeatCount="indefinite" />
+      <animate attributeName="cy" values="40;110;30;40" dur="9s" repeatCount="indefinite" />
+      <animate attributeName="r" values="210;250;195;210" dur="7s" repeatCount="indefinite" />
+    </circle>
+  </g>
+  <rect x="1" y="1" width="590" height="200" rx="16" stroke="#232329" stroke-width="1.5" />
+  <rect x="1" y="1" width="590" height="200" rx="16" stroke="url(#beamCyan)" stroke-width="1.5" stroke-dasharray="220 1360">
+    <animate attributeName="stroke-dashoffset" from="1580" to="0" dur="10s" repeatCount="indefinite" />
+  </rect>
+
+  <text x="30" y="36" class="sans" fill="#71717A" font-size="11.5" font-weight="600" letter-spacing="0.4">
     CONVERSATIONAL AI &amp; AUTOMATION
   </text>
-  <rect x="448" y="19" width="114" height="24" rx="12" fill="#18181B" stroke="#27272A" stroke-width="1" />
-  <text x="464" y="35" class="sans" fill="#D4D4D8" font-size="11.5" font-weight="500">
+  <rect x="434" y="18" width="128" height="24" rx="12" fill="#16161D" stroke="#27272A" stroke-width="1" />
+  <circle cx="450" cy="30" r="3.5" fill="#38BDF8">
+    <animate attributeName="opacity" values="1;0.3;1" dur="2.4s" repeatCount="indefinite" />
+  </circle>
+  <text x="462" y="34" class="sans" fill="#E4E4E7" font-size="11.5" font-weight="500">
     Gemini LLM
   </text>
 
@@ -26,34 +108,54 @@
     with Google Gemini agents, automated Bakong KHQR invoicing, and slip validation.
   </text>
 
-  <!-- Language bar -->
+  <!-- Language bar + shimmer -->
   <rect x="30" y="138" width="370" height="5" rx="2.5" fill="#3178C6" />
   <rect x="404" y="138" width="156" height="5" rx="2.5" fill="#3572A5" />
+  <rect x="30" y="138" width="530" height="5" rx="2.5" fill="url(#barShimmer)" />
 
   <!-- Tech pills -->
-  <rect x="30" y="156" width="84" height="26" rx="6" fill="#18181B" stroke="#27272A" />
+  <rect x="30" y="156" width="84" height="26" rx="6" fill="#16161C" stroke="#27272A" />
   <text x="43" y="173" class="sans" fill="#D4D4D8" font-size="12" font-weight="500">TypeScript</text>
 
-  <rect x="122" y="156" width="64" height="26" rx="6" fill="#18181B" stroke="#27272A" />
+  <rect x="122" y="156" width="64" height="26" rx="6" fill="#16161C" stroke="#27272A" />
   <text x="135" y="173" class="sans" fill="#D4D4D8" font-size="12" font-weight="500">FastAPI</text>
 
-  <rect x="194" y="156" width="62" height="26" rx="6" fill="#18181B" stroke="#27272A" />
+  <rect x="194" y="156" width="62" height="26" rx="6" fill="#16161C" stroke="#27272A" />
   <text x="206" y="173" class="sans" fill="#D4D4D8" font-size="12" font-weight="500">Python</text>
 
-  <rect x="264" y="156" width="88" height="26" rx="6" fill="#18181B" stroke="#27272A" />
+  <rect x="264" y="156" width="88" height="26" rx="6" fill="#16161C" stroke="#27272A" />
   <text x="276" y="173" class="sans" fill="#D4D4D8" font-size="12" font-weight="500">PostgreSQL</text>
 
-  <rect x="360" y="156" width="64" height="26" rx="6" fill="#18181B" stroke="#27272A" />
+  <rect x="360" y="156" width="64" height="26" rx="6" fill="#16161C" stroke="#27272A" />
   <text x="373" y="173" class="sans" fill="#D4D4D8" font-size="12" font-weight="500">Docker</text>
 
 
-  <!-- CARD 2: AgriSystem AI (Top-Right: x=609, y=1, w=590, h=200) -->
-  <rect x="609" y="1" width="590" height="200" rx="16" fill="#111114" stroke="#27272A" stroke-width="1.5" />
-  <text x="638" y="36" class="sans" fill="#71717A" font-size="12" font-weight="500">
+  <!-- ======================================================================= -->
+  <!-- CARD 2: AgriSystem AI (Top-Right: x=609, y=1, w=590, h=200)             -->
+  <!-- ======================================================================= -->
+  <g clip-path="url(#clipCard2)">
+    <rect x="609" y="1" width="590" height="200" rx="16" fill="#0E0E12" />
+    <rect x="609" y="1" width="590" height="200" fill="url(#cardGrid)" />
+    <!-- Animated Ambient Glow Orb -->
+    <circle cx="1080" cy="45" r="220" fill="url(#glowAmber)">
+      <animate attributeName="cx" values="1080;930;1110;1080" dur="10s" repeatCount="indefinite" />
+      <animate attributeName="cy" values="45;115;35;45" dur="10s" repeatCount="indefinite" />
+      <animate attributeName="r" values="220;260;200;220" dur="8s" repeatCount="indefinite" />
+    </circle>
+  </g>
+  <rect x="609" y="1" width="590" height="200" rx="16" stroke="#232329" stroke-width="1.5" />
+  <rect x="609" y="1" width="590" height="200" rx="16" stroke="url(#beamAmber)" stroke-width="1.5" stroke-dasharray="220 1360">
+    <animate attributeName="stroke-dashoffset" from="790" to="-790" dur="11s" repeatCount="indefinite" />
+  </rect>
+
+  <text x="638" y="36" class="sans" fill="#71717A" font-size="11.5" font-weight="600" letter-spacing="0.4">
     AI &amp; FINE-TUNED EXPERT SYSTEM
   </text>
-  <rect x="1008" y="19" width="162" height="24" rx="12" fill="#422006" fill-opacity="0.5" stroke="#EAB308" stroke-opacity="0.35" stroke-width="1" />
-  <text x="1024" y="35" class="sans" fill="#FDE047" font-size="11.5" font-weight="600">
+  <rect x="996" y="18" width="174" height="24" rx="12" fill="#422006" fill-opacity="0.45" stroke="#EAB308" stroke-opacity="0.35" stroke-width="1" />
+  <circle cx="1012" cy="30" r="3.5" fill="#FACC15">
+    <animate attributeName="opacity" values="1;0.35;1" dur="2.2s" repeatCount="indefinite" />
+  </circle>
+  <text x="1024" y="34" class="sans" fill="#FDE047" font-size="11.5" font-weight="600">
     Innovation Award 2026
   </text>
 
@@ -67,34 +169,54 @@
     3B LoRA adapters and GGUF models for crop disease diagnosis and weather risk alerts.
   </text>
 
-  <!-- Language bar -->
+  <!-- Language bar + shimmer -->
   <rect x="638" y="138" width="430" height="5" rx="2.5" fill="#3572A5" />
   <rect x="1072" y="138" width="98" height="5" rx="2.5" fill="#EAB308" />
+  <rect x="638" y="138" width="532" height="5" rx="2.5" fill="url(#barShimmer)" />
 
   <!-- Tech pills -->
-  <rect x="638" y="156" width="62" height="26" rx="6" fill="#18181B" stroke="#27272A" />
+  <rect x="638" y="156" width="62" height="26" rx="6" fill="#16161C" stroke="#27272A" />
   <text x="650" y="173" class="sans" fill="#D4D4D8" font-size="12" font-weight="500">Python</text>
 
-  <rect x="708" y="156" width="88" height="26" rx="6" fill="#18181B" stroke="#27272A" />
+  <rect x="708" y="156" width="88" height="26" rx="6" fill="#16161C" stroke="#27272A" />
   <text x="720" y="173" class="sans" fill="#D4D4D8" font-size="12" font-weight="500">Qwen2.5-3B</text>
 
-  <rect x="804" y="156" width="90" height="26" rx="6" fill="#18181B" stroke="#27272A" />
+  <rect x="804" y="156" width="90" height="26" rx="6" fill="#16161C" stroke="#27272A" />
   <text x="816" y="173" class="sans" fill="#D4D4D8" font-size="12" font-weight="500">PEFT / LoRA</text>
 
-  <rect x="902" y="156" width="58" height="26" rx="6" fill="#18181B" stroke="#27272A" />
+  <rect x="902" y="156" width="58" height="26" rx="6" fill="#16161C" stroke="#27272A" />
   <text x="914" y="173" class="sans" fill="#D4D4D8" font-size="12" font-weight="500">GGUF</text>
 
-  <rect x="968" y="156" width="54" height="26" rx="6" fill="#18181B" stroke="#27272A" />
+  <rect x="968" y="156" width="54" height="26" rx="6" fill="#16161C" stroke="#27272A" />
   <text x="980" y="173" class="sans" fill="#D4D4D8" font-size="12" font-weight="500">Flask</text>
 
 
-  <!-- CARD 3: Digital Keys PRO (Bottom-Left: x=1, y=219, w=590, h=200) -->
-  <rect x="1" y="219" width="590" height="200" rx="16" fill="#111114" stroke="#27272A" stroke-width="1.5" />
-  <text x="30" y="254" class="sans" fill="#71717A" font-size="12" font-weight="500">
+  <!-- ======================================================================= -->
+  <!-- CARD 3: Digital Keys PRO (Bottom-Left: x=1, y=219, w=590, h=200)        -->
+  <!-- ======================================================================= -->
+  <g clip-path="url(#clipCard3)">
+    <rect x="1" y="219" width="590" height="200" rx="16" fill="#0E0E12" />
+    <rect x="1" y="219" width="590" height="200" fill="url(#cardGrid)" />
+    <!-- Animated Ambient Glow Orb -->
+    <circle cx="460" cy="270" r="210" fill="url(#glowEmerald)">
+      <animate attributeName="cx" values="460;320;500;460" dur="9.5s" repeatCount="indefinite" />
+      <animate attributeName="cy" values="270;340;250;270" dur="9.5s" repeatCount="indefinite" />
+      <animate attributeName="r" values="210;245;195;210" dur="7.5s" repeatCount="indefinite" />
+    </circle>
+  </g>
+  <rect x="1" y="219" width="590" height="200" rx="16" stroke="#232329" stroke-width="1.5" />
+  <rect x="1" y="219" width="590" height="200" rx="16" stroke="url(#beamEmerald)" stroke-width="1.5" stroke-dasharray="220 1360">
+    <animate attributeName="stroke-dashoffset" from="1200" to="-380" dur="10.5s" repeatCount="indefinite" />
+  </rect>
+
+  <text x="30" y="254" class="sans" fill="#71717A" font-size="11.5" font-weight="600" letter-spacing="0.4">
     FULL-STACK &amp; TELEGRAM MINI APP
   </text>
-  <rect x="456" y="237" width="106" height="24" rx="12" fill="#064E3B" fill-opacity="0.35" stroke="#10B981" stroke-opacity="0.35" stroke-width="1" />
-  <text x="474" y="253" class="sans" fill="#A7F3D0" font-size="11.5" font-weight="600">
+  <rect x="444" y="236" width="118" height="24" rx="12" fill="#064E3B" fill-opacity="0.35" stroke="#10B981" stroke-opacity="0.35" stroke-width="1" />
+  <circle cx="460" cy="248" r="3.5" fill="#34D399">
+    <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite" />
+  </circle>
+  <text x="472" y="252" class="sans" fill="#A7F3D0" font-size="11.5" font-weight="600">
     Live on Vercel
   </text>
 
@@ -108,32 +230,52 @@
     provisioning, automated inventory management, and native Telegram checkout.
   </text>
 
-  <!-- Language bar -->
+  <!-- Language bar + shimmer -->
   <rect x="30" y="356" width="290" height="5" rx="2.5" fill="#3178C6" />
   <rect x="324" y="356" width="150" height="5" rx="2.5" fill="#E34C26" />
   <rect x="478" y="356" width="82" height="5" rx="2.5" fill="#F7DF1E" />
+  <rect x="30" y="356" width="530" height="5" rx="2.5" fill="url(#barShimmer)" />
 
   <!-- Tech pills -->
-  <rect x="30" y="374" width="84" height="26" rx="6" fill="#18181B" stroke="#27272A" />
+  <rect x="30" y="374" width="84" height="26" rx="6" fill="#16161C" stroke="#27272A" />
   <text x="43" y="391" class="sans" fill="#D4D4D8" font-size="12" font-weight="500">TypeScript</text>
 
-  <rect x="122" y="374" width="56" height="26" rx="6" fill="#18181B" stroke="#27272A" />
+  <rect x="122" y="374" width="56" height="26" rx="6" fill="#16161C" stroke="#27272A" />
   <text x="134" y="391" class="sans" fill="#D4D4D8" font-size="12" font-weight="500">React</text>
 
-  <rect x="186" y="374" width="102" height="26" rx="6" fill="#18181B" stroke="#27272A" />
+  <rect x="186" y="374" width="102" height="26" rx="6" fill="#16161C" stroke="#27272A" />
   <text x="198" y="391" class="sans" fill="#D4D4D8" font-size="12" font-weight="500">Telegram SDK</text>
 
-  <rect x="296" y="374" width="66" height="26" rx="6" fill="#18181B" stroke="#27272A" />
+  <rect x="296" y="374" width="66" height="26" rx="6" fill="#16161C" stroke="#27272A" />
   <text x="308" y="391" class="sans" fill="#D4D4D8" font-size="12" font-weight="500">Node.js</text>
 
 
-  <!-- CARD 4: Driving License Prep & KSN Music (Bottom-Right: x=609, y=219, w=590, h=200) -->
-  <rect x="609" y="219" width="590" height="200" rx="16" fill="#111114" stroke="#27272A" stroke-width="1.5" />
-  <text x="638" y="254" class="sans" fill="#71717A" font-size="12" font-weight="500">
+  <!-- ======================================================================= -->
+  <!-- CARD 4: Driving License Prep & KSN Music (Bottom-Right: x=609, y=219)   -->
+  <!-- ======================================================================= -->
+  <g clip-path="url(#clipCard4)">
+    <rect x="609" y="219" width="590" height="200" rx="16" fill="#0E0E12" />
+    <rect x="609" y="219" width="590" height="200" fill="url(#cardGrid)" />
+    <!-- Animated Ambient Glow Orb -->
+    <circle cx="1070" cy="275" r="215" fill="url(#glowViolet)">
+      <animate attributeName="cx" values="1070;940;1100;1070" dur="10.5s" repeatCount="indefinite" />
+      <animate attributeName="cy" values="275;345;255;275" dur="10.5s" repeatCount="indefinite" />
+      <animate attributeName="r" values="215;255;195;215" dur="8.5s" repeatCount="indefinite" />
+    </circle>
+  </g>
+  <rect x="609" y="219" width="590" height="200" rx="16" stroke="#232329" stroke-width="1.5" />
+  <rect x="609" y="219" width="590" height="200" rx="16" stroke="url(#beamCyan)" stroke-width="1.5" stroke-dasharray="220 1360">
+    <animate attributeName="stroke-dashoffset" from="400" to="-1180" dur="11.5s" repeatCount="indefinite" />
+  </rect>
+
+  <text x="638" y="254" class="sans" fill="#71717A" font-size="11.5" font-weight="600" letter-spacing="0.4">
     CROSS-PLATFORM MOBILE &amp; WEB PLATFORMS
   </text>
-  <rect x="1044" y="237" width="126" height="24" rx="12" fill="#18181B" stroke="#27272A" stroke-width="1" />
-  <text x="1062" y="253" class="sans" fill="#D4D4D8" font-size="11.5" font-weight="500">
+  <rect x="1032" y="236" width="138" height="24" rx="12" fill="#16161D" stroke="#27272A" stroke-width="1" />
+  <circle cx="1048" cy="248" r="3.5" fill="#818CF8">
+    <animate attributeName="opacity" values="1;0.35;1" dur="2.6s" repeatCount="indefinite" />
+  </circle>
+  <text x="1060" y="252" class="sans" fill="#E4E4E7" font-size="11.5" font-weight="500">
     Flutter &amp; Laravel
   </text>
 
@@ -147,23 +289,24 @@
     paired with KSN Music — a full-stack Laravel &amp; JavaScript audio streaming platform.
   </text>
 
-  <!-- Language bar -->
+  <!-- Language bar + shimmer -->
   <rect x="638" y="356" width="280" height="5" rx="2.5" fill="#00B4AB" />
   <rect x="922" y="356" width="248" height="5" rx="2.5" fill="#4F5D95" />
+  <rect x="638" y="356" width="532" height="5" rx="2.5" fill="url(#barShimmer)" />
 
   <!-- Tech pills -->
-  <rect x="638" y="374" width="60" height="26" rx="6" fill="#18181B" stroke="#27272A" />
+  <rect x="638" y="374" width="60" height="26" rx="6" fill="#16161C" stroke="#27272A" />
   <text x="650" y="391" class="sans" fill="#D4D4D8" font-size="12" font-weight="500">Flutter</text>
 
-  <rect x="706" y="374" width="48" height="26" rx="6" fill="#18181B" stroke="#27272A" />
+  <rect x="706" y="374" width="48" height="26" rx="6" fill="#16161C" stroke="#27272A" />
   <text x="718" y="391" class="sans" fill="#D4D4D8" font-size="12" font-weight="500">Dart</text>
 
-  <rect x="762" y="374" width="64" height="26" rx="6" fill="#18181B" stroke="#27272A" />
+  <rect x="762" y="374" width="64" height="26" rx="6" fill="#16161C" stroke="#27272A" />
   <text x="774" y="391" class="sans" fill="#D4D4D8" font-size="12" font-weight="500">Laravel</text>
 
-  <rect x="834" y="374" width="48" height="26" rx="6" fill="#18181B" stroke="#27272A" />
+  <rect x="834" y="374" width="48" height="26" rx="6" fill="#16161C" stroke="#27272A" />
   <text x="846" y="391" class="sans" fill="#D4D4D8" font-size="12" font-weight="500">PHP</text>
 
-  <rect x="890" y="374" width="64" height="26" rx="6" fill="#18181B" stroke="#27272A" />
+  <rect x="890" y="374" width="64" height="26" rx="6" fill="#16161C" stroke="#27272A" />
   <text x="902" y="391" class="sans" fill="#D4D4D8" font-size="12" font-weight="500">MySQL</text>
 </svg>
