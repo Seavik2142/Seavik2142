@@ -187,7 +187,7 @@
     <g transform="translate(18, 16)">
       <rect x="0" y="0" width="268" height="88" rx="12" fill="url(#subCard)" stroke="#E2E8F0" stroke-width="1"/>
       <circle cx="16" cy="20" r="4" fill="#4F46E5"/>
-      <text x="27" y="24" class="sans" font-size="10.5" font-weight="700" fill="#4F46E5">EDUCATION · 2023 – PRESENT</text>
+      <text x="27" y="24" class="sans" font-size="10.5" font-weight="700" fill="#4F46E5">EDUCATION · 2024 – PRESENT</text>
       <text x="16" y="48" class="sans" font-size="14.5" font-weight="800" fill="#0F172A">B.Sc. in Computer Studies</text>
       <text x="16" y="69" class="sans" font-size="12" font-weight="500" fill="#475569">Norton University · Software Dev</text>
     </g>
