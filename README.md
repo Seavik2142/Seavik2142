@@ -93,8 +93,10 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Seavik2142/Seavik2142/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Seavik2142/Seavik2142/output/github-snake.svg" />
-    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/Seavik2142/Seavik2142/output/github-snake-dark.svg" width="100%" />
+    <source media="(max-width: 640px) and (prefers-color-scheme: dark)" srcset="./assets/activity-mobile.svg" />
+    <source media="(max-width: 640px) and (prefers-color-scheme: light)" srcset="./assets/activity-mobile-light.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-bento.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/activity-bento-light.svg" />
+    <img alt="Contribution Activity & Engineering Telemetry" src="./assets/activity-bento.svg" width="100%" />
   </picture>
 </div>
