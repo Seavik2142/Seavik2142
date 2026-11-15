@@ -1,89 +1,198 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" width="100%" height="100%" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 295" width="100%">
   <defs>
     <style>
-      .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, Helvetica, Arial, sans-serif; }
     </style>
+
+    <linearGradient id="bgCard" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F8FAFC"/>
+    </linearGradient>
+
+    <radialGradient id="orbBlue" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0EA5E9" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orbEmerald" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orbAmber" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#F59E0B" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orbIndigo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#6366F1" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="beamStack" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0EA5E9"/>
+      <stop offset="50%" stop-color="#6366F1"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
   </defs>
 
-  <!-- LEFT: TECHNICAL STACK BENTO (w=680) -->
-  <rect x="1" y="1" width="680" height="278" rx="16" fill="#FFFFFF" stroke="#27272A" stroke-width="1.5" />
-  <text x="30" y="42" class="sans" fill="#09090B" font-size="18" font-weight="600" letter-spacing="-0.3">
-    Technical Stack
-  </text>
-  <text x="30" y="62" class="sans" fill="#71717A" font-size="12.5">
-    Languages, frameworks, and ML tooling used in production
-  </text>
+  <!-- Section Header -->
+  <g transform="translate(8, 28)">
+    <rect x="0" y="-15" width="28" height="22" rx="6" fill="#EEF2FF" stroke="#C7D2FE" stroke-width="1"/>
+    <text x="14" y="1" text-anchor="middle" class="sans" font-size="11.5" font-weight="800" fill="#4F46E5">TS</text>
+    <text x="38" y="1" class="sans" font-size="17" font-weight="800" fill="#0F172A" letter-spacing="-0.3">Engineering Architecture &amp; Tech Stack</text>
+    <circle cx="352" cy="-4" r="3" fill="#6366F1">
+      <animate attributeName="opacity" values="0.35;1;0.35" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <text x="1104" y="0" text-anchor="end" class="sans" font-size="12.5" font-weight="600" fill="#64748B">Production Domains</text>
+  </g>
 
-  <!-- Row 1: AI & ML -->
-  <text x="30" y="102" class="sans" fill="#52525B" font-size="12.5" font-weight="600">
-    AI &amp; LLMs
-  </text>
-  <rect x="160" y="84" width="490" height="28" rx="8" fill="#18181B" stroke="#27272A" />
-  <text x="176" y="102" class="sans" fill="#27272A" font-size="12.5" font-weight="500">
-    PyTorch · Hugging Face · PEFT / LoRA · TRL (SFT) · Qwen2.5 · Gemini API
-  </text>
+  <!-- COL 1: Languages -->
+  <g transform="translate(4, 54)">
+    <rect x="0" y="0" width="265" height="232" rx="18" fill="url(#bgCard)" stroke="#E2E8F0" stroke-width="1.5"/>
+    <circle cx="215" cy="45" r="95" fill="url(#orbBlue)">
+      <animate attributeName="cy" values="45;95;45" dur="8s" repeatCount="indefinite"/>
+    </circle>
+    <rect x="0" y="0" width="265" height="232" rx="18" fill="none" stroke="url(#beamStack)" stroke-width="1.5" stroke-dasharray="140 860" stroke-linecap="round" opacity="0.8">
+      <animate attributeName="stroke-dashoffset" from="1000" to="0" dur="10s" repeatCount="indefinite"/>
+    </rect>
+    <circle cx="26" cy="32" r="5" fill="#0284C7">
+      <animate attributeName="opacity" values="1;0.4;1" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <text x="40" y="37" class="sans" font-size="15" font-weight="800" fill="#0F172A">Core Languages</text>
+    <line x1="22" y1="54" x2="243" y2="54" stroke="#E2E8F0" stroke-width="1"/>
 
-  <!-- Row 2: Backend & APIs -->
-  <text x="30" y="146" class="sans" fill="#52525B" font-size="12.5" font-weight="600">
-    Backend &amp; APIs
-  </text>
-  <rect x="160" y="128" width="490" height="28" rx="8" fill="#18181B" stroke="#27272A" />
-  <text x="176" y="146" class="sans" fill="#27272A" font-size="12.5" font-weight="500">
-    Python · FastAPI · Flask · Node.js · Laravel (PHP) · REST Microservices
-  </text>
+    <g transform="translate(22, 72)">
+      <rect x="0" y="0" width="106" height="30" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+      <text x="53" y="19" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#1E293B">Python 3.12</text>
 
-  <!-- Row 3: Frontend & Mobile -->
-  <text x="30" y="190" class="sans" fill="#52525B" font-size="12.5" font-weight="600">
-    Frontend &amp; Mobile
-  </text>
-  <rect x="160" y="172" width="490" height="28" rx="8" fill="#18181B" stroke="#27272A" />
-  <text x="176" y="190" class="sans" fill="#27272A" font-size="12.5" font-weight="500">
-    TypeScript · JavaScript · React · Next.js · Flutter (Dart) · Tailwind CSS
-  </text>
+      <rect x="114" y="0" width="106" height="30" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+      <text x="167" y="19" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#1E293B">TypeScript</text>
 
-  <!-- Row 4: Data & DevOps -->
-  <text x="30" y="234" class="sans" fill="#52525B" font-size="12.5" font-weight="600">
-    Data &amp; DevOps
-  </text>
-  <rect x="160" y="216" width="490" height="28" rx="8" fill="#18181B" stroke="#27272A" />
-  <text x="176" y="234" class="sans" fill="#27272A" font-size="12.5" font-weight="500">
-    PostgreSQL · PL/pgSQL · MySQL · Docker · Git · GitHub Actions · Linux
-  </text>
+      <rect x="0" y="40" width="106" height="30" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+      <text x="53" y="59" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#1E293B">C# / .NET</text>
 
+      <rect x="114" y="40" width="106" height="30" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+      <text x="167" y="59" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#1E293B">JavaScript</text>
 
-  <!-- RIGHT: EXPERIENCE & EDUCATION BENTO (x=699, w=500) -->
-  <rect x="699" y="1" width="500" height="278" rx="16" fill="#FFFFFF" stroke="#27272A" stroke-width="1.5" />
-  <text x="728" y="42" class="sans" fill="#09090B" font-size="18" font-weight="600" letter-spacing="-0.3">
-    Experience &amp; Education
-  </text>
-  <text x="728" y="62" class="sans" fill="#71717A" font-size="12.5">
-    Industry internship, leadership, and academic standing
-  </text>
+      <rect x="0" y="80" width="106" height="30" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+      <text x="53" y="99" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#1E293B">SQL / Postgres</text>
 
-  <!-- Credential 1 -->
-  <circle cx="734" cy="96" r="3.5" fill="#34D399" />
-  <text x="748" y="100" class="sans" fill="#18181B" font-size="13.5" font-weight="600">
-    Backend Software Engineering Intern
-  </text>
-  <text x="748" y="119" class="sans" fill="#52525B" font-size="12.5">
-    KRU IT Solution &amp; ETEC Center · Oct 2026
-  </text>
+      <rect x="114" y="80" width="106" height="30" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+      <text x="167" y="99" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#1E293B">Bash / Shell</text>
 
-  <!-- Credential 2 -->
-  <circle cx="734" cy="154" r="3.5" fill="#FACC15" />
-  <text x="748" y="158" class="sans" fill="#18181B" font-size="13.5" font-weight="600">
-    Team Lead — AI Expert System &amp; Innovation
-  </text>
-  <text x="748" y="177" class="sans" fill="#52525B" font-size="12.5">
-    Norton University (4-Member Team) · Sep 2026
-  </text>
+      <text x="0" y="138" class="sans" font-size="11.5" font-weight="600" fill="#0284C7">Primary: Python &amp; TypeScript</text>
+    </g>
+  </g>
 
-  <!-- Credential 3 -->
-  <circle cx="734" cy="212" r="3.5" fill="#52525B" />
-  <text x="748" y="216" class="sans" fill="#18181B" font-size="13.5" font-weight="600">
-    B.Sc. in Computer Studies (Software Development)
-  </text>
-  <text x="748" y="235" class="sans" fill="#52525B" font-size="12.5">
-    Norton University, Cambodia · Distinguished Standing
-  </text>
+  <!-- COL 2: AI & ML -->
+  <g transform="translate(286, 54)">
+    <rect x="0" y="0" width="265" height="232" rx="18" fill="url(#bgCard)" stroke="#E2E8F0" stroke-width="1.5"/>
+    <circle cx="215" cy="45" r="95" fill="url(#orbEmerald)">
+      <animate attributeName="cy" values="45;95;45" dur="9s" repeatCount="indefinite"/>
+    </circle>
+    <rect x="0" y="0" width="265" height="232" rx="18" fill="none" stroke="url(#beamStack)" stroke-width="1.5" stroke-dasharray="140 860" stroke-linecap="round" opacity="0.8">
+      <animate attributeName="stroke-dashoffset" from="750" to="-250" dur="10s" repeatCount="indefinite"/>
+    </rect>
+    <circle cx="26" cy="32" r="5" fill="#059669">
+      <animate attributeName="opacity" values="1;0.4;1" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <text x="40" y="37" class="sans" font-size="15" font-weight="800" fill="#0F172A">AI &amp; Deep Learning</text>
+    <line x1="22" y1="54" x2="243" y2="54" stroke="#E2E8F0" stroke-width="1"/>
+
+    <g transform="translate(22, 72)">
+      <rect x="0" y="0" width="106" height="30" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+      <text x="53" y="19" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#1E293B">PyTorch</text>
+
+      <rect x="114" y="0" width="106" height="30" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+      <text x="167" y="19" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#1E293B">Hugging Face</text>
+
+      <rect x="0" y="40" width="106" height="30" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+      <text x="53" y="59" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#1E293B">Unsloth QLoRA</text>
+
+      <rect x="114" y="40" width="106" height="30" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+      <text x="167" y="59" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#1E293B">YOLOv8 / CV</text>
+
+      <rect x="0" y="80" width="106" height="30" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+      <text x="53" y="99" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#1E293B">OpenCV</text>
+
+      <rect x="114" y="80" width="106" height="30" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+      <text x="167" y="99" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#1E293B">vLLM / GGUF</text>
+
+      <text x="0" y="138" class="sans" font-size="11.5" font-weight="600" fill="#059669">Focus: Khmer NLP &amp; Vision</text>
+    </g>
+  </g>
+
+  <!-- COL 3: Full-Stack & APIs -->
+  <g transform="translate(568, 54)">
+    <rect x="0" y="0" width="265" height="232" rx="18" fill="url(#bgCard)" stroke="#E2E8F0" stroke-width="1.5"/>
+    <circle cx="215" cy="45" r="95" fill="url(#orbAmber)">
+      <animate attributeName="cy" values="45;95;45" dur="10s" repeatCount="indefinite"/>
+    </circle>
+    <rect x="0" y="0" width="265" height="232" rx="18" fill="none" stroke="url(#beamStack)" stroke-width="1.5" stroke-dasharray="140 860" stroke-linecap="round" opacity="0.8">
+      <animate attributeName="stroke-dashoffset" from="500" to="-500" dur="10s" repeatCount="indefinite"/>
+    </rect>
+    <circle cx="26" cy="32" r="5" fill="#D97706">
+      <animate attributeName="opacity" values="1;0.4;1" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <text x="40" y="37" class="sans" font-size="15" font-weight="800" fill="#0F172A">Full-Stack &amp; Web</text>
+    <line x1="22" y1="54" x2="243" y2="54" stroke="#E2E8F0" stroke-width="1"/>
+
+    <g transform="translate(22, 72)">
+      <rect x="0" y="0" width="106" height="30" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+      <text x="53" y="19" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#1E293B">React 19</text>
+
+      <rect x="114" y="0" width="106" height="30" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+      <text x="167" y="19" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#1E293B">Next.js</text>
+
+      <rect x="0" y="40" width="106" height="30" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+      <text x="53" y="59" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#1E293B">FastAPI</text>
+
+      <rect x="114" y="40" width="106" height="30" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+      <text x="167" y="59" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#1E293B">Node.js</text>
+
+      <rect x="0" y="80" width="106" height="30" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+      <text x="53" y="99" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#1E293B">Tailwind CSS</text>
+
+      <rect x="114" y="80" width="106" height="30" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+      <text x="167" y="99" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#1E293B">REST / WebSocket</text>
+
+      <text x="0" y="138" class="sans" font-size="11.5" font-weight="600" fill="#D97706">Low-Latency Inference APIs</text>
+    </g>
+  </g>
+
+  <!-- COL 4: Cloud & MLOps -->
+  <g transform="translate(850, 54)">
+    <rect x="0" y="0" width="266" height="232" rx="18" fill="url(#bgCard)" stroke="#E2E8F0" stroke-width="1.5"/>
+    <circle cx="215" cy="45" r="95" fill="url(#orbIndigo)">
+      <animate attributeName="cy" values="45;95;45" dur="11s" repeatCount="indefinite"/>
+    </circle>
+    <rect x="0" y="0" width="266" height="232" rx="18" fill="none" stroke="url(#beamStack)" stroke-width="1.5" stroke-dasharray="140 860" stroke-linecap="round" opacity="0.8">
+      <animate attributeName="stroke-dashoffset" from="250" to="-750" dur="10s" repeatCount="indefinite"/>
+    </rect>
+    <circle cx="26" cy="32" r="5" fill="#4F46E5">
+      <animate attributeName="opacity" values="1;0.4;1" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <text x="40" y="37" class="sans" font-size="15" font-weight="800" fill="#0F172A">Infrastructure &amp; Ops</text>
+    <line x1="22" y1="54" x2="243" y2="54" stroke="#E2E8F0" stroke-width="1"/>
+
+    <g transform="translate(22, 72)">
+      <rect x="0" y="0" width="106" height="30" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+      <text x="53" y="19" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#1E293B">Docker</text>
+
+      <rect x="114" y="0" width="106" height="30" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+      <text x="167" y="19" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#1E293B">Linux / Ubuntu</text>
+
+      <rect x="0" y="40" width="106" height="30" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+      <text x="53" y="59" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#1E293B">GitHub Actions</text>
+
+      <rect x="114" y="40" width="106" height="30" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+      <text x="167" y="59" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#1E293B">PostgreSQL</text>
+
+      <rect x="0" y="80" width="106" height="30" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+      <text x="53" y="99" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#1E293B">Redis Cache</text>
+
+      <rect x="114" y="80" width="106" height="30" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+      <text x="167" y="99" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#1E293B">CUDA / GPU</text>
+
+      <text x="0" y="138" class="sans" font-size="11.5" font-weight="600" fill="#4F46E5">CI/CD &amp; Containerized Deploy</text>
+    </g>
+  </g>
 </svg>
