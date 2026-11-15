@@ -1,5 +1,7 @@
 <div align="center">
   <picture>
+    <source media="(max-width: 640px) and (prefers-color-scheme: dark)" srcset="./assets/hero-mobile.svg" />
+    <source media="(max-width: 640px) and (prefers-color-scheme: light)" srcset="./assets/hero-mobile-light.svg" />
     <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-bento.svg" />
     <source media="(prefers-color-scheme: light)" srcset="./assets/hero-bento-light.svg" />
     <img src="./assets/hero-bento.svg" width="100%" alt="Mao Seavik — AI Engineer & Backend Software Developer" />
@@ -25,6 +27,8 @@
 
 <div align="center">
   <picture>
+    <source media="(max-width: 640px) and (prefers-color-scheme: dark)" srcset="./assets/projects-mobile.svg" />
+    <source media="(max-width: 640px) and (prefers-color-scheme: light)" srcset="./assets/projects-mobile-light.svg" />
     <source media="(prefers-color-scheme: dark)" srcset="./assets/projects-bento.svg" />
     <source media="(prefers-color-scheme: light)" srcset="./assets/projects-bento-light.svg" />
     <img src="./assets/projects-bento.svg" width="100%" alt="Selected Engineering Projects" />
@@ -38,9 +42,9 @@
   &nbsp;&nbsp;·&nbsp;&nbsp;
   <a href="https://mini-app-alpha-roan.vercel.app"><b>03 · Digital Keys PRO Live ↗</b></a>
   &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="https://github.com/Seavik2142/driving-system"><b>04 · Driving System ↗</b></a>
+  <a href="https://github.com/Seavik2142/School_Manage"><b>04 · School_Manage ↗</b></a>
   &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="https://github.com/Seavik2142/ksnmusic"><b>05 · KSN Music ↗</b></a>
+  <a href="https://github.com/Seavik2142/driving-system"><b>05 · Driving System ↗</b></a>
 </p>
 
 <br />
@@ -50,6 +54,8 @@
 <div align="center">
   <a href="https://huggingface.co/Maoseavik">
     <picture>
+      <source media="(max-width: 640px) and (prefers-color-scheme: dark)" srcset="./assets/models-mobile.svg" />
+      <source media="(max-width: 640px) and (prefers-color-scheme: light)" srcset="./assets/models-mobile-light.svg" />
       <source media="(prefers-color-scheme: dark)" srcset="./assets/models-bento.svg" />
       <source media="(prefers-color-scheme: light)" srcset="./assets/models-bento-light.svg" />
       <img src="./assets/models-bento.svg" width="100%" alt="Published Language Models on Hugging Face" />
@@ -69,13 +75,15 @@
 
 <br />
 
-### Technical Stack & Experience
+### Technical Stack & Academic Credentials
 
 <div align="center">
   <picture>
+    <source media="(max-width: 640px) and (prefers-color-scheme: dark)" srcset="./assets/stack-mobile.svg" />
+    <source media="(max-width: 640px) and (prefers-color-scheme: light)" srcset="./assets/stack-mobile-light.svg" />
     <source media="(prefers-color-scheme: dark)" srcset="./assets/stack-bento.svg" />
     <source media="(prefers-color-scheme: light)" srcset="./assets/stack-bento-light.svg" />
-    <img src="./assets/stack-bento.svg" width="100%" alt="Technical Stack & Experience" />
+    <img src="./assets/stack-bento.svg" width="100%" alt="Technical Stack & Academic Credentials" />
   </picture>
 </div>
 

@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 740" width="100%">
+  <defs>
+    <style>
+      .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, Helvetica, Arial, sans-serif; }
+    </style>
+    <linearGradient id="bgCard" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#13131A"/>
+      <stop offset="100%" stop-color="#0C0C10"/>
+    </linearGradient>
+    <linearGradient id="beamStack" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="50%" stop-color="#818CF8"/>
+      <stop offset="100%" stop-color="#34D399"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(8, 26)">
+    <rect x="0" y="-15" width="26" height="20" rx="6" fill="#191633" stroke="#4338CA" stroke-width="1"/>
+    <text x="13" y="-1" text-anchor="middle" class="sans" font-size="11" font-weight="800" fill="#818CF8">TS</text>
+    <text x="35" y="0" class="sans" font-size="16.5" font-weight="800" fill="#FAFAFA" letter-spacing="-0.3">Technical Stack &amp; Academic Credentials</text>
+    
+  </g>
+  
+  <g transform="translate(4, 48)">
+    <rect x="0" y="0" width="472" height="160" rx="18" fill="url(#bgCard)" stroke="#27272A" stroke-width="1.4"/>
+    <rect x="0" y="0" width="472" height="160" rx="18" fill="none" stroke="url(#beamStack)" stroke-width="1.5" stroke-dasharray="160 1050" stroke-linecap="round" opacity="0.85">
+      <animate attributeName="stroke-dashoffset" from="1210" to="0" dur="10s" repeatCount="indefinite"/>
+    </rect>
+
+    <g transform="translate(22, 22)">
+      <circle cx="8" cy="10" r="4.5" fill="#FBBF24">
+        <animate attributeName="opacity" values="1;0.35;1" dur="2.4s" repeatCount="indefinite"/>
+      </circle>
+      <text x="20" y="15" class="sans" font-size="15.5" font-weight="800" fill="#FAFAFA">AI &amp; Language Models</text>
+      <text x="428" y="14" text-anchor="end" class="sans" font-size="11" font-weight="600" fill="#FBBF24">SFT · Domain Adaptation · Agentic Workflows</text>
+
+      <line x1="0" y1="28" x2="428" y2="28" stroke="#27272A" stroke-width="1"/>
+
+      <g transform="translate(0, 42)">
+        <rect x="0" y="0" width="136" height="30" rx="8" fill="#18181F" stroke="#272732" stroke-width="1"/>
+                <text x="68" y="19" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#E4E4E7">Qwen2.5 LLMs</text><rect x="144" y="0" width="136" height="30" rx="8" fill="#18181F" stroke="#272732" stroke-width="1"/>
+                <text x="212" y="19" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#E4E4E7">PEFT / LoRA</text><rect x="288" y="0" width="136" height="30" rx="8" fill="#18181F" stroke="#272732" stroke-width="1"/>
+                <text x="356" y="19" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#E4E4E7">Google Gemini</text><rect x="0" y="38" width="136" height="30" rx="8" fill="#18181F" stroke="#272732" stroke-width="1"/>
+                <text x="68" y="57" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#E4E4E7">GGUF / llama.cpp</text><rect x="144" y="38" width="136" height="30" rx="8" fill="#18181F" stroke="#272732" stroke-width="1"/>
+                <text x="212" y="57" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#E4E4E7">PyTorch &amp; TRL</text><rect x="288" y="38" width="136" height="30" rx="8" fill="#18181F" stroke="#272732" stroke-width="1"/>
+                <text x="356" y="57" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#E4E4E7">Hugging Face</text>
+      </g>
+    </g>
+  </g>
+  <g transform="translate(4, 220)">
+    <rect x="0" y="0" width="472" height="160" rx="18" fill="url(#bgCard)" stroke="#27272A" stroke-width="1.4"/>
+    <rect x="0" y="0" width="472" height="160" rx="18" fill="none" stroke="url(#beamStack)" stroke-width="1.5" stroke-dasharray="160 1050" stroke-linecap="round" opacity="0.85">
+      <animate attributeName="stroke-dashoffset" from="990" to="-220" dur="10s" repeatCount="indefinite"/>
+    </rect>
+
+    <g transform="translate(22, 22)">
+      <circle cx="8" cy="10" r="4.5" fill="#38BDF8">
+        <animate attributeName="opacity" values="1;0.35;1" dur="2.4s" repeatCount="indefinite"/>
+      </circle>
+      <text x="20" y="15" class="sans" font-size="15.5" font-weight="800" fill="#FAFAFA">Backend &amp; APIs</text>
+      <text x="428" y="14" text-anchor="end" class="sans" font-size="11" font-weight="600" fill="#38BDF8">Async Services · Model Serving · Webhooks</text>
+
+      <line x1="0" y1="28" x2="428" y2="28" stroke="#27272A" stroke-width="1"/>
+
+      <g transform="translate(0, 42)">
+        <rect x="0" y="0" width="136" height="30" rx="8" fill="#18181F" stroke="#272732" stroke-width="1"/>
+                <text x="68" y="19" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#E4E4E7">Python</text><rect x="144" y="0" width="136" height="30" rx="8" fill="#18181F" stroke="#272732" stroke-width="1"/>
+                <text x="212" y="19" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#E4E4E7">FastAPI</text><rect x="288" y="0" width="136" height="30" rx="8" fill="#18181F" stroke="#272732" stroke-width="1"/>
+                <text x="356" y="19" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#E4E4E7">Flask</text><rect x="0" y="38" width="136" height="30" rx="8" fill="#18181F" stroke="#272732" stroke-width="1"/>
+                <text x="68" y="57" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#E4E4E7">Node.js</text><rect x="144" y="38" width="136" height="30" rx="8" fill="#18181F" stroke="#272732" stroke-width="1"/>
+                <text x="212" y="57" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#E4E4E7">Laravel / PHP</text><rect x="288" y="38" width="136" height="30" rx="8" fill="#18181F" stroke="#272732" stroke-width="1"/>
+                <text x="356" y="57" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#E4E4E7">REST &amp; Webhooks</text>
+      </g>
+    </g>
+  </g>
+  <g transform="translate(4, 392)">
+    <rect x="0" y="0" width="472" height="160" rx="18" fill="url(#bgCard)" stroke="#27272A" stroke-width="1.4"/>
+    <rect x="0" y="0" width="472" height="160" rx="18" fill="none" stroke="url(#beamStack)" stroke-width="1.5" stroke-dasharray="160 1050" stroke-linecap="round" opacity="0.85">
+      <animate attributeName="stroke-dashoffset" from="770" to="-440" dur="10s" repeatCount="indefinite"/>
+    </rect>
+
+    <g transform="translate(22, 22)">
+      <circle cx="8" cy="10" r="4.5" fill="#34D399">
+        <animate attributeName="opacity" values="1;0.35;1" dur="2.4s" repeatCount="indefinite"/>
+      </circle>
+      <text x="20" y="15" class="sans" font-size="15.5" font-weight="800" fill="#FAFAFA">Frontend &amp; Mobile</text>
+      <text x="428" y="14" text-anchor="end" class="sans" font-size="11" font-weight="600" fill="#34D399">Type-Safe Web Apps &amp; Cross-Platform Mobile</text>
+
+      <line x1="0" y1="28" x2="428" y2="28" stroke="#27272A" stroke-width="1"/>
+
+      <g transform="translate(0, 42)">
+        <rect x="0" y="0" width="136" height="30" rx="8" fill="#18181F" stroke="#272732" stroke-width="1"/>
+                <text x="68" y="19" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#E4E4E7">TypeScript</text><rect x="144" y="0" width="136" height="30" rx="8" fill="#18181F" stroke="#272732" stroke-width="1"/>
+                <text x="212" y="19" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#E4E4E7">React &amp; Next.js</text><rect x="288" y="0" width="136" height="30" rx="8" fill="#18181F" stroke="#272732" stroke-width="1"/>
+                <text x="356" y="19" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#E4E4E7">JavaScript</text><rect x="0" y="38" width="136" height="30" rx="8" fill="#18181F" stroke="#272732" stroke-width="1"/>
+                <text x="68" y="57" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#E4E4E7">Flutter &amp; Dart</text><rect x="144" y="38" width="136" height="30" rx="8" fill="#18181F" stroke="#272732" stroke-width="1"/>
+                <text x="212" y="57" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#E4E4E7">Tailwind CSS</text><rect x="288" y="38" width="136" height="30" rx="8" fill="#18181F" stroke="#272732" stroke-width="1"/>
+                <text x="356" y="57" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#E4E4E7">Telegram SDK</text>
+      </g>
+    </g>
+  </g>
+  <g transform="translate(4, 564)">
+    <rect x="0" y="0" width="472" height="160" rx="18" fill="url(#bgCard)" stroke="#27272A" stroke-width="1.4"/>
+    <rect x="0" y="0" width="472" height="160" rx="18" fill="none" stroke="url(#beamStack)" stroke-width="1.5" stroke-dasharray="160 1050" stroke-linecap="round" opacity="0.85">
+      <animate attributeName="stroke-dashoffset" from="550" to="-660" dur="10s" repeatCount="indefinite"/>
+    </rect>
+
+    <g transform="translate(22, 22)">
+      <circle cx="8" cy="10" r="4.5" fill="#818CF8">
+        <animate attributeName="opacity" values="1;0.35;1" dur="2.4s" repeatCount="indefinite"/>
+      </circle>
+      <text x="20" y="15" class="sans" font-size="15.5" font-weight="800" fill="#FAFAFA">Data, DevOps &amp; Study</text>
+      <text x="428" y="14" text-anchor="end" class="sans" font-size="11" font-weight="600" fill="#818CF8">Norton University · B.Sc. Computer Studies</text>
+
+      <line x1="0" y1="28" x2="428" y2="28" stroke="#27272A" stroke-width="1"/>
+
+      <g transform="translate(0, 42)">
+        <rect x="0" y="0" width="136" height="30" rx="8" fill="#18181F" stroke="#272732" stroke-width="1"/>
+                <text x="68" y="19" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#E4E4E7">PostgreSQL</text><rect x="144" y="0" width="136" height="30" rx="8" fill="#18181F" stroke="#272732" stroke-width="1"/>
+                <text x="212" y="19" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#E4E4E7">PL/pgSQL &amp; SQL</text><rect x="288" y="0" width="136" height="30" rx="8" fill="#18181F" stroke="#272732" stroke-width="1"/>
+                <text x="356" y="19" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#E4E4E7">Docker</text><rect x="0" y="38" width="136" height="30" rx="8" fill="#18181F" stroke="#272732" stroke-width="1"/>
+                <text x="68" y="57" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#E4E4E7">GitHub Actions</text><rect x="144" y="38" width="136" height="30" rx="8" fill="#18181F" stroke="#272732" stroke-width="1"/>
+                <text x="212" y="57" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#E4E4E7">Norton Univ. CS</text><rect x="288" y="38" width="136" height="30" rx="8" fill="#18181F" stroke="#272732" stroke-width="1"/>
+                <text x="356" y="57" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#E4E4E7">KRU IT Intern</text>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 880" width="100%">
+  <defs>
+    <style>
+      .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, Helvetica, Arial, sans-serif; }
+    </style>
+    <linearGradient id="bgCard" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F8FAFC"/>
+    </linearGradient>
+    <radialGradient id="orbGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#F59E0B" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="beamModel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="50%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#34D399"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(8, 26)">
+    <rect x="0" y="-15" width="26" height="20" rx="6" fill="#FFFBEB" stroke="#FDE68A" stroke-width="1"/>
+    <text x="13" y="-1" text-anchor="middle" class="sans" font-size="11" font-weight="800" fill="#D97706">HF</text>
+    <text x="35" y="0" class="sans" font-size="16.5" font-weight="800" fill="#0F172A" letter-spacing="-0.3">Published Language Models (@Maoseavik)</text>
+    
+  </g>
+  
+  <g transform="translate(4, 48)">
+    <rect x="0" y="0" width="472" height="194" rx="18" fill="url(#bgCard)" stroke="#E2E8F0" stroke-width="1.4"/>
+    <circle cx="412" cy="40" r="100" fill="url(#orbGlow)">
+      <animate attributeName="cy" values="40;85;40" dur="9s" repeatCount="indefinite"/>
+    </circle>
+    <rect x="0" y="0" width="472" height="194" rx="18" fill="none" stroke="url(#beamModel)" stroke-width="1.6" stroke-dasharray="180 1150" stroke-linecap="round" opacity="0.85">
+      <animate attributeName="stroke-dashoffset" from="1330" to="0" dur="11s" repeatCount="indefinite"/>
+    </rect>
+
+    <g transform="translate(22, 22)">
+      <rect x="0" y="0" width="128" height="23" rx="11.5" fill="#FFFBEB" stroke="#FDE68A" stroke-width="1"/>
+      <circle cx="12" cy="11.5" r="3.5" fill="#D97706">
+        <animate attributeName="opacity" values="1;0.35;1" dur="2.2s" repeatCount="indefinite"/>
+      </circle>
+      <text x="22" y="15.5" class="sans" font-size="10.5" font-weight="700" fill="#B45309">SFT · TRL · LoRA</text>
+
+      <rect x="134" y="0" width="142" height="23" rx="11.5" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+      <text x="205" y="15.5" text-anchor="middle" class="sans" font-size="10.5" font-weight="700" fill="#1E293B">Qwen2.5-3B-Instruct</text>
+
+      <text x="424" y="15.5" text-anchor="end" class="sans" font-size="10.5" font-weight="700" fill="#D97706">SafeTensors</text>
+
+      <text x="0" y="48" class="sans" font-size="17.5" font-weight="800" fill="#0F172A" letter-spacing="-0.3">Maoseavik / agri-qwen3b-lora</text>
+      <text x="0" y="70" class="sans" font-size="12.5" font-weight="400" fill="#475569">Supervised fine-tuned LoRA adapter on Qwen2.5-3B-Instruct trained</text>
+      <text x="0" y="88" class="sans" font-size="12.5" font-weight="400" fill="#475569">for crop disease diagnosis, treatment planning &amp; agricultural Q&amp;A.</text>
+
+      <g transform="translate(0, 110)">
+        <rect x="0" y="0" width="86" height="24" rx="7" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+                <text x="43" y="16" text-anchor="middle" class="sans" font-size="11" font-weight="600" fill="#1E293B">Qwen2.5-3B</text><rect x="93" y="0" width="38" height="24" rx="7" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+                <text x="112" y="16" text-anchor="middle" class="sans" font-size="11" font-weight="600" fill="#1E293B">SFT</text><rect x="138" y="0" width="38" height="24" rx="7" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+                <text x="158" y="16" text-anchor="middle" class="sans" font-size="11" font-weight="600" fill="#1E293B">TRL</text><rect x="184" y="0" width="93" height="24" rx="7" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+                <text x="230" y="16" text-anchor="middle" class="sans" font-size="11" font-weight="600" fill="#1E293B">PEFT / LoRA</text>
+        <text x="424" y="16" text-anchor="end" class="sans" font-size="11" font-weight="700" fill="#D97706">HF →</text>
+      </g>
+    </g>
+  </g>
+  <g transform="translate(4, 254)">
+    <rect x="0" y="0" width="472" height="194" rx="18" fill="url(#bgCard)" stroke="#E2E8F0" stroke-width="1.4"/>
+    <circle cx="412" cy="40" r="100" fill="url(#orbGlow)">
+      <animate attributeName="cy" values="40;85;40" dur="10s" repeatCount="indefinite"/>
+    </circle>
+    <rect x="0" y="0" width="472" height="194" rx="18" fill="none" stroke="url(#beamModel)" stroke-width="1.6" stroke-dasharray="180 1150" stroke-linecap="round" opacity="0.85">
+      <animate attributeName="stroke-dashoffset" from="1090" to="-240" dur="11s" repeatCount="indefinite"/>
+    </rect>
+
+    <g transform="translate(22, 22)">
+      <rect x="0" y="0" width="128" height="23" rx="11.5" fill="#F0F9FF" stroke="#BAE6FD" stroke-width="1"/>
+      <circle cx="12" cy="11.5" r="3.5" fill="#0284C7">
+        <animate attributeName="opacity" values="1;0.35;1" dur="2.2s" repeatCount="indefinite"/>
+      </circle>
+      <text x="22" y="15.5" class="sans" font-size="10.5" font-weight="700" fill="#0369A1">Quantized GGUF</text>
+
+      <rect x="134" y="0" width="142" height="23" rx="11.5" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+      <text x="205" y="15.5" text-anchor="middle" class="sans" font-size="10.5" font-weight="700" fill="#1E293B">Qwen2.5-3B-Instruct</text>
+
+      <text x="424" y="15.5" text-anchor="end" class="sans" font-size="10.5" font-weight="700" fill="#0284C7">GGUF · CPU</text>
+
+      <text x="0" y="48" class="sans" font-size="17.5" font-weight="800" fill="#0F172A" letter-spacing="-0.3">Maoseavik / agrisystem-qwen2.5-3b-gguf</text>
+      <text x="0" y="70" class="sans" font-size="12.5" font-weight="400" fill="#475569">Quantized GGUF build of the AgriSystem Qwen2.5-3B model optimized</text>
+      <text x="0" y="88" class="sans" font-size="12.5" font-weight="400" fill="#475569">for low-latency local and CPU inference using llama.cpp or Ollama.</text>
+
+      <g transform="translate(0, 110)">
+        <rect x="0" y="0" width="45" height="24" rx="7" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+                <text x="23" y="16" text-anchor="middle" class="sans" font-size="11" font-weight="600" fill="#1E293B">GGUF</text><rect x="52" y="0" width="79" height="24" rx="7" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+                <text x="92" y="16" text-anchor="middle" class="sans" font-size="11" font-weight="600" fill="#1E293B">llama.cpp</text><rect x="138" y="0" width="59" height="24" rx="7" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+                <text x="168" y="16" text-anchor="middle" class="sans" font-size="11" font-weight="600" fill="#1E293B">Ollama</text><rect x="204" y="0" width="66" height="24" rx="7" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+                <text x="237" y="16" text-anchor="middle" class="sans" font-size="11" font-weight="600" fill="#1E293B">Edge AI</text>
+        <text x="424" y="16" text-anchor="end" class="sans" font-size="11" font-weight="700" fill="#0284C7">HF →</text>
+      </g>
+    </g>
+  </g>
+  <g transform="translate(4, 460)">
+    <rect x="0" y="0" width="472" height="194" rx="18" fill="url(#bgCard)" stroke="#E2E8F0" stroke-width="1.4"/>
+    <circle cx="412" cy="40" r="100" fill="url(#orbGlow)">
+      <animate attributeName="cy" values="40;85;40" dur="11s" repeatCount="indefinite"/>
+    </circle>
+    <rect x="0" y="0" width="472" height="194" rx="18" fill="none" stroke="url(#beamModel)" stroke-width="1.6" stroke-dasharray="180 1150" stroke-linecap="round" opacity="0.85">
+      <animate attributeName="stroke-dashoffset" from="850" to="-480" dur="11s" repeatCount="indefinite"/>
+    </rect>
+
+    <g transform="translate(22, 22)">
+      <rect x="0" y="0" width="128" height="23" rx="11.5" fill="#ECFDF5" stroke="#A7F3D0" stroke-width="1"/>
+      <circle cx="12" cy="11.5" r="3.5" fill="#059669">
+        <animate attributeName="opacity" values="1;0.35;1" dur="2.2s" repeatCount="indefinite"/>
+      </circle>
+      <text x="22" y="15.5" class="sans" font-size="10.5" font-weight="700" fill="#047857">PEFT Adapter</text>
+
+      <rect x="134" y="0" width="142" height="23" rx="11.5" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+      <text x="205" y="15.5" text-anchor="middle" class="sans" font-size="10.5" font-weight="700" fill="#1E293B">Qwen2.5-3B-Instruct</text>
+
+      <text x="424" y="15.5" text-anchor="end" class="sans" font-size="10.5" font-weight="700" fill="#059669">Transformers</text>
+
+      <text x="0" y="48" class="sans" font-size="17.5" font-weight="800" fill="#0F172A" letter-spacing="-0.3">Maoseavik / agrisystem-qwen2.5-3b-adapter</text>
+      <text x="0" y="70" class="sans" font-size="12.5" font-weight="400" fill="#475569">Parameter-efficient adapter weights trained on curated agricultural</text>
+      <text x="0" y="88" class="sans" font-size="12.5" font-weight="400" fill="#475569">knowledge bases for structured symptom-to-treatment reasoning.</text>
+
+      <g transform="translate(0, 110)">
+        <rect x="0" y="0" width="100" height="24" rx="7" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+                <text x="50" y="16" text-anchor="middle" class="sans" font-size="11" font-weight="600" fill="#1E293B">Transformers</text><rect x="107" y="0" width="66" height="24" rx="7" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+                <text x="139" y="16" text-anchor="middle" class="sans" font-size="11" font-weight="600" fill="#1E293B">Adapter</text><rect x="179" y="0" width="86" height="24" rx="7" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+                <text x="222" y="16" text-anchor="middle" class="sans" font-size="11" font-weight="600" fill="#1E293B">Qwen2.5-3B</text>
+        <text x="424" y="16" text-anchor="end" class="sans" font-size="11" font-weight="700" fill="#059669">HF →</text>
+      </g>
+    </g>
+  </g>
+  <g transform="translate(4, 666)">
+    <rect x="0" y="0" width="472" height="194" rx="18" fill="url(#bgCard)" stroke="#E2E8F0" stroke-width="1.4"/>
+    <circle cx="412" cy="40" r="100" fill="url(#orbGlow)">
+      <animate attributeName="cy" values="40;85;40" dur="12s" repeatCount="indefinite"/>
+    </circle>
+    <rect x="0" y="0" width="472" height="194" rx="18" fill="none" stroke="url(#beamModel)" stroke-width="1.6" stroke-dasharray="180 1150" stroke-linecap="round" opacity="0.85">
+      <animate attributeName="stroke-dashoffset" from="610" to="-720" dur="11s" repeatCount="indefinite"/>
+    </rect>
+
+    <g transform="translate(22, 22)">
+      <rect x="0" y="0" width="128" height="23" rx="11.5" fill="#EEF2FF" stroke="#C7D2FE" stroke-width="1"/>
+      <circle cx="12" cy="11.5" r="3.5" fill="#4F46E5">
+        <animate attributeName="opacity" values="1;0.35;1" dur="2.2s" repeatCount="indefinite"/>
+      </circle>
+      <text x="22" y="15.5" class="sans" font-size="10.5" font-weight="700" fill="#4338CA">PEFT · LoRA (1.5B)</text>
+
+      <rect x="134" y="0" width="142" height="23" rx="11.5" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+      <text x="205" y="15.5" text-anchor="middle" class="sans" font-size="10.5" font-weight="700" fill="#1E293B">Qwen2.5-1.5B-Instruct</text>
+
+      <text x="424" y="15.5" text-anchor="end" class="sans" font-size="10.5" font-weight="700" fill="#4F46E5">SafeTensors</text>
+
+      <text x="0" y="48" class="sans" font-size="17.5" font-weight="800" fill="#0F172A" letter-spacing="-0.3">Maoseavik / agri-expert-adapter</text>
+      <text x="0" y="70" class="sans" font-size="12.5" font-weight="400" fill="#475569">Compact 1.5B parameter LoRA adapter built for fast conversational</text>
+      <text x="0" y="88" class="sans" font-size="12.5" font-weight="400" fill="#475569">response times on memory-constrained edge hardware.</text>
+
+      <g transform="translate(0, 110)">
+        <rect x="0" y="0" width="45" height="24" rx="7" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+                <text x="23" y="16" text-anchor="middle" class="sans" font-size="11" font-weight="600" fill="#1E293B">PEFT</text><rect x="52" y="0" width="45" height="24" rx="7" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+                <text x="75" y="16" text-anchor="middle" class="sans" font-size="11" font-weight="600" fill="#1E293B">LoRA</text><rect x="104" y="0" width="100" height="24" rx="7" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+                <text x="154" y="16" text-anchor="middle" class="sans" font-size="11" font-weight="600" fill="#1E293B">Qwen2.5-1.5B</text><rect x="211" y="0" width="113" height="24" rx="7" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+                <text x="268" y="16" text-anchor="middle" class="sans" font-size="11" font-weight="600" fill="#1E293B">Fast Inference</text>
+        <text x="424" y="16" text-anchor="end" class="sans" font-size="11" font-weight="700" fill="#4F46E5">HF →</text>
+      </g>
+    </g>
+  </g>
+</svg>

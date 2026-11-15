@@ -1,0 +1,181 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 1020" width="100%">
+  <defs>
+    <style>
+      .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, Helvetica, Arial, sans-serif; }
+    </style>
+    <linearGradient id="bgCard" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#13131A"/>
+      <stop offset="100%" stop-color="#0C0C10"/>
+    </linearGradient>
+    <radialGradient id="orbGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#09090B" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="beamCard" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="50%" stop-color="#818CF8"/>
+      <stop offset="100%" stop-color="#34D399"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(8, 26)">
+    <rect x="0" y="-15" width="26" height="20" rx="6" fill="#0C2233" stroke="#0369A1" stroke-width="1"/>
+    <text x="13" y="-1" text-anchor="middle" class="sans" font-size="11" font-weight="800" fill="#38BDF8">01</text>
+    <text x="35" y="0" class="sans" font-size="16.5" font-weight="800" fill="#FAFAFA" letter-spacing="-0.3">Selected Engineering &amp; AI Projects</text>
+    
+  </g>
+  
+  <g transform="translate(4, 48)">
+    <rect x="0" y="0" width="472" height="228" rx="18" fill="url(#bgCard)" stroke="#27272A" stroke-width="1.4"/>
+    <circle cx="412" cy="40" r="110" fill="url(#orbGlow)">
+      <animate attributeName="cy" values="40;90;40" dur="9s" repeatCount="indefinite"/>
+    </circle>
+    <rect x="0" y="0" width="472" height="228" rx="18" fill="none" stroke="url(#beamCard)" stroke-width="1.6" stroke-dasharray="180 1200" stroke-linecap="round" opacity="0.85">
+      <animate attributeName="stroke-dashoffset" from="1380" to="0" dur="11s" repeatCount="indefinite"/>
+    </rect>
+
+    <g transform="translate(22, 22)">
+      <rect x="0" y="0" width="194" height="23" rx="11.5" fill="#0C2233" stroke="#0369A1" stroke-width="1"/>
+      <circle cx="12" cy="11.5" r="3.5" fill="#38BDF8">
+        <animate attributeName="opacity" values="1;0.35;1" dur="2.1s" repeatCount="indefinite"/>
+      </circle>
+      <text x="22" y="15.5" class="sans" font-size="10.5" font-weight="700" fill="#7DD3FC">Conversational AI · Gemini</text>
+      <text x="424" y="16" text-anchor="end" class="sans" font-size="12" font-weight="700" fill="#71717A">01</text>
+
+      <text x="0" y="48" class="sans" font-size="19" font-weight="800" fill="#FAFAFA" letter-spacing="-0.4">ChhlatAI — Copilot Inbox</text>
+      <text x="0" y="70" class="sans" font-size="12.5" font-weight="400" fill="#A1A1AA">Unified social-commerce inbox connecting Telegram, Messenger,</text>
+      <text x="0" y="88" class="sans" font-size="12.5" font-weight="400" fill="#A1A1AA">Instagram &amp; TikTok with Google Gemini agents &amp; Bakong KHQR.</text>
+
+      <g transform="translate(0, 105)">
+        <rect x="0" y="0" width="106" height="24" rx="7" fill="#18181F" stroke="#272732" stroke-width="1"/>
+                <text x="53" y="16" text-anchor="middle" class="sans" font-size="11" font-weight="600" fill="#E4E4E7">Google Gemini</text><rect x="113" y="0" width="86" height="24" rx="7" fill="#18181F" stroke="#272732" stroke-width="1"/>
+                <text x="156" y="16" text-anchor="middle" class="sans" font-size="11" font-weight="600" fill="#E4E4E7">TypeScript</text><rect x="206" y="0" width="66" height="24" rx="7" fill="#18181F" stroke="#272732" stroke-width="1"/>
+                <text x="239" y="16" text-anchor="middle" class="sans" font-size="11" font-weight="600" fill="#E4E4E7">FastAPI</text><rect x="279" y="0" width="86" height="24" rx="7" fill="#18181F" stroke="#272732" stroke-width="1"/>
+                <text x="322" y="16" text-anchor="middle" class="sans" font-size="11" font-weight="600" fill="#E4E4E7">PostgreSQL</text>
+      </g>
+
+      <g transform="translate(0, 144)">
+        <rect x="0" y="0" width="424" height="6" rx="3" fill="#18181B"/>
+        <rect x="0" y="0" width="298" height="6" rx="3" fill="#3178C6"/>
+        <rect x="301" y="0" width="125" height="6" rx="3" fill="#3572A5"/>
+        <text x="0" y="20" class="sans" font-size="11" font-weight="600" fill="#71717A">TypeScript 69.8% · Python 29.3%</text>
+        <text x="424" y="20" text-anchor="end" class="sans" font-size="11" font-weight="700" fill="#38BDF8">Seavik2142/ChhlatAI →</text>
+      </g>
+    </g>
+  </g>
+  <g transform="translate(4, 290)">
+    <rect x="0" y="0" width="472" height="228" rx="18" fill="url(#bgCard)" stroke="#27272A" stroke-width="1.4"/>
+    <circle cx="412" cy="40" r="110" fill="url(#orbGlow)">
+      <animate attributeName="cy" values="40;90;40" dur="10s" repeatCount="indefinite"/>
+    </circle>
+    <rect x="0" y="0" width="472" height="228" rx="18" fill="none" stroke="url(#beamCard)" stroke-width="1.6" stroke-dasharray="180 1200" stroke-linecap="round" opacity="0.85">
+      <animate attributeName="stroke-dashoffset" from="1130" to="-250" dur="11s" repeatCount="indefinite"/>
+    </rect>
+
+    <g transform="translate(22, 22)">
+      <rect x="0" y="0" width="194" height="23" rx="11.5" fill="#271A07" stroke="#92400E" stroke-width="1"/>
+      <circle cx="12" cy="11.5" r="3.5" fill="#FBBF24">
+        <animate attributeName="opacity" values="1;0.35;1" dur="2.1s" repeatCount="indefinite"/>
+      </circle>
+      <text x="22" y="15.5" class="sans" font-size="10.5" font-weight="700" fill="#FDE68A">Fine-Tuned LLMs · Award 2026</text>
+      <text x="424" y="16" text-anchor="end" class="sans" font-size="12" font-weight="700" fill="#71717A">02</text>
+
+      <text x="0" y="48" class="sans" font-size="19" font-weight="800" fill="#FAFAFA" letter-spacing="-0.4">AgriSystem AI — Expert LLM</text>
+      <text x="0" y="70" class="sans" font-size="12.5" font-weight="400" fill="#A1A1AA">Agricultural advisory platform powered by fine-tuned Qwen2.5-3B</text>
+      <text x="0" y="88" class="sans" font-size="12.5" font-weight="400" fill="#A1A1AA">models for crop disease diagnosis &amp; bilingual Khmer guidance.</text>
+
+      <g transform="translate(0, 105)">
+        <rect x="0" y="0" width="86" height="24" rx="7" fill="#18181F" stroke="#272732" stroke-width="1"/>
+                <text x="43" y="16" text-anchor="middle" class="sans" font-size="11" font-weight="600" fill="#E4E4E7">Qwen2.5-3B</text><rect x="93" y="0" width="93" height="24" rx="7" fill="#18181F" stroke="#272732" stroke-width="1"/>
+                <text x="139" y="16" text-anchor="middle" class="sans" font-size="11" font-weight="600" fill="#E4E4E7">PEFT / LoRA</text><rect x="193" y="0" width="45" height="24" rx="7" fill="#18181F" stroke="#272732" stroke-width="1"/>
+                <text x="215" y="16" text-anchor="middle" class="sans" font-size="11" font-weight="600" fill="#E4E4E7">GGUF</text><rect x="245" y="0" width="59" height="24" rx="7" fill="#18181F" stroke="#272732" stroke-width="1"/>
+                <text x="274" y="16" text-anchor="middle" class="sans" font-size="11" font-weight="600" fill="#E4E4E7">Python</text><rect x="311" y="0" width="52" height="24" rx="7" fill="#18181F" stroke="#272732" stroke-width="1"/>
+                <text x="337" y="16" text-anchor="middle" class="sans" font-size="11" font-weight="600" fill="#E4E4E7">Flask</text>
+      </g>
+
+      <g transform="translate(0, 144)">
+        <rect x="0" y="0" width="424" height="6" rx="3" fill="#18181B"/>
+        <rect x="0" y="0" width="346" height="6" rx="3" fill="#3572A5"/>
+        <rect x="349" y="0" width="77" height="6" rx="3" fill="#FBBF24"/>
+        <text x="0" y="20" class="sans" font-size="11" font-weight="600" fill="#71717A">Python 82.0% · Model Weights 18.0%</text>
+        <text x="424" y="20" text-anchor="end" class="sans" font-size="11" font-weight="700" fill="#FBBF24">agricultureexp.space →</text>
+      </g>
+    </g>
+  </g>
+  <g transform="translate(4, 532)">
+    <rect x="0" y="0" width="472" height="228" rx="18" fill="url(#bgCard)" stroke="#27272A" stroke-width="1.4"/>
+    <circle cx="412" cy="40" r="110" fill="url(#orbGlow)">
+      <animate attributeName="cy" values="40;90;40" dur="11s" repeatCount="indefinite"/>
+    </circle>
+    <rect x="0" y="0" width="472" height="228" rx="18" fill="none" stroke="url(#beamCard)" stroke-width="1.6" stroke-dasharray="180 1200" stroke-linecap="round" opacity="0.85">
+      <animate attributeName="stroke-dashoffset" from="880" to="-500" dur="11s" repeatCount="indefinite"/>
+    </rect>
+
+    <g transform="translate(22, 22)">
+      <rect x="0" y="0" width="194" height="23" rx="11.5" fill="#06281E" stroke="#047857" stroke-width="1"/>
+      <circle cx="12" cy="11.5" r="3.5" fill="#34D399">
+        <animate attributeName="opacity" values="1;0.35;1" dur="2.1s" repeatCount="indefinite"/>
+      </circle>
+      <text x="22" y="15.5" class="sans" font-size="10.5" font-weight="700" fill="#6EE7B7">Telegram Mini App · Full-Stack</text>
+      <text x="424" y="16" text-anchor="end" class="sans" font-size="12" font-weight="700" fill="#71717A">03</text>
+
+      <text x="0" y="48" class="sans" font-size="19" font-weight="800" fill="#FAFAFA" letter-spacing="-0.4">Digital Keys PRO — WebApp</text>
+      <text x="0" y="70" class="sans" font-size="12.5" font-weight="400" fill="#A1A1AA">High-speed Telegram Mini App storefront engineered for instant</text>
+      <text x="0" y="88" class="sans" font-size="12.5" font-weight="400" fill="#A1A1AA">software key delivery, automated inventory, and native checkout.</text>
+
+      <g transform="translate(0, 105)">
+        <rect x="0" y="0" width="86" height="24" rx="7" fill="#18181F" stroke="#272732" stroke-width="1"/>
+                <text x="43" y="16" text-anchor="middle" class="sans" font-size="11" font-weight="600" fill="#E4E4E7">TypeScript</text><rect x="93" y="0" width="52" height="24" rx="7" fill="#18181F" stroke="#272732" stroke-width="1"/>
+                <text x="119" y="16" text-anchor="middle" class="sans" font-size="11" font-weight="600" fill="#E4E4E7">React</text><rect x="152" y="0" width="100" height="24" rx="7" fill="#18181F" stroke="#272732" stroke-width="1"/>
+                <text x="202" y="16" text-anchor="middle" class="sans" font-size="11" font-weight="600" fill="#E4E4E7">Telegram SDK</text><rect x="259" y="0" width="66" height="24" rx="7" fill="#18181F" stroke="#272732" stroke-width="1"/>
+                <text x="291" y="16" text-anchor="middle" class="sans" font-size="11" font-weight="600" fill="#E4E4E7">Node.js</text>
+      </g>
+
+      <g transform="translate(0, 144)">
+        <rect x="0" y="0" width="424" height="6" rx="3" fill="#18181B"/>
+        <rect x="0" y="0" width="242" height="6" rx="3" fill="#3178C6"/>
+        <rect x="245" y="0" width="181" height="6" rx="3" fill="#E34C26"/>
+        <text x="0" y="20" class="sans" font-size="11" font-weight="600" fill="#71717A">TypeScript 47.4% · HTML/UI 36.2%</text>
+        <text x="424" y="20" text-anchor="end" class="sans" font-size="11" font-weight="700" fill="#34D399">Seavik2142/mini_app →</text>
+      </g>
+    </g>
+  </g>
+  <g transform="translate(4, 774)">
+    <rect x="0" y="0" width="472" height="228" rx="18" fill="url(#bgCard)" stroke="#27272A" stroke-width="1.4"/>
+    <circle cx="412" cy="40" r="110" fill="url(#orbGlow)">
+      <animate attributeName="cy" values="40;90;40" dur="12s" repeatCount="indefinite"/>
+    </circle>
+    <rect x="0" y="0" width="472" height="228" rx="18" fill="none" stroke="url(#beamCard)" stroke-width="1.6" stroke-dasharray="180 1200" stroke-linecap="round" opacity="0.85">
+      <animate attributeName="stroke-dashoffset" from="630" to="-750" dur="11s" repeatCount="indefinite"/>
+    </rect>
+
+    <g transform="translate(22, 22)">
+      <rect x="0" y="0" width="194" height="23" rx="11.5" fill="#191633" stroke="#4338CA" stroke-width="1"/>
+      <circle cx="12" cy="11.5" r="3.5" fill="#818CF8">
+        <animate attributeName="opacity" values="1;0.35;1" dur="2.1s" repeatCount="indefinite"/>
+      </circle>
+      <text x="22" y="15.5" class="sans" font-size="10.5" font-weight="700" fill="#A5B4FC">Backend &amp; Cross-Platform</text>
+      <text x="424" y="16" text-anchor="end" class="sans" font-size="12" font-weight="700" fill="#71717A">04</text>
+
+      <text x="0" y="48" class="sans" font-size="19" font-weight="800" fill="#FAFAFA" letter-spacing="-0.4">School_Manage &amp; Driving Prep</text>
+      <text x="0" y="70" class="sans" font-size="12.5" font-weight="400" fill="#A1A1AA">Modular Python &amp; PostgreSQL academic platform paired with a</text>
+      <text x="0" y="88" class="sans" font-size="12.5" font-weight="400" fill="#A1A1AA">cross-platform Flutter &amp; Dart driving theory exam suite.</text>
+
+      <g transform="translate(0, 105)">
+        <rect x="0" y="0" width="59" height="24" rx="7" fill="#18181F" stroke="#272732" stroke-width="1"/>
+                <text x="29" y="16" text-anchor="middle" class="sans" font-size="11" font-weight="600" fill="#E4E4E7">Python</text><rect x="66" y="0" width="86" height="24" rx="7" fill="#18181F" stroke="#272732" stroke-width="1"/>
+                <text x="109" y="16" text-anchor="middle" class="sans" font-size="11" font-weight="600" fill="#E4E4E7">PostgreSQL</text><rect x="159" y="0" width="113" height="24" rx="7" fill="#18181F" stroke="#272732" stroke-width="1"/>
+                <text x="215" y="16" text-anchor="middle" class="sans" font-size="11" font-weight="600" fill="#E4E4E7">Flutter / Dart</text><rect x="279" y="0" width="72" height="24" rx="7" fill="#18181F" stroke="#272732" stroke-width="1"/>
+                <text x="315" y="16" text-anchor="middle" class="sans" font-size="11" font-weight="600" fill="#E4E4E7">REST API</text>
+      </g>
+
+      <g transform="translate(0, 144)">
+        <rect x="0" y="0" width="424" height="6" rx="3" fill="#18181B"/>
+        <rect x="0" y="0" width="289" height="6" rx="3" fill="#3572A5"/>
+        <rect x="292" y="0" width="134" height="6" rx="3" fill="#00B4AB"/>
+        <text x="0" y="20" class="sans" font-size="11" font-weight="600" fill="#71717A">Python 68.0% · Dart &amp; SQL 32.0%</text>
+        <text x="424" y="20" text-anchor="end" class="sans" font-size="11" font-weight="700" fill="#818CF8">Seavik2142/School_Manage →</text>
+      </g>
+    </g>
+  </g>
+</svg>
