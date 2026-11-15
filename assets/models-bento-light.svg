@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 290" width="100%" height="100%" fill="none">
+  <defs>
+    <style>
+      .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, Helvetica, Arial, sans-serif; }
+      .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; }
+    </style>
+    <pattern id="mGrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#09090B" stroke-opacity="0.04" stroke-width="1" />
+    </pattern>
+    <clipPath id="mc1"><rect x="1" y="1" width="590" height="136" rx="14" /></clipPath>
+    <clipPath id="mc2"><rect x="609" y="1" width="590" height="136" rx="14" /></clipPath>
+    <clipPath id="mc3"><rect x="1" y="153" width="590" height="136" rx="14" /></clipPath>
+    <clipPath id="mc4"><rect x="609" y="153" width="590" height="136" rx="14" /></clipPath>
+    <radialGradient id="hfGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FACC15" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#09090B" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- MODEL 1 -->
+  <g clip-path="url(#mc1)">
+    <rect x="1" y="1" width="590" height="136" rx="14" fill="#FFFFFF" />
+    <rect x="1" y="1" width="590" height="136" fill="url(#mGrid)" />
+    <circle cx="490" cy="30" r="160" fill="url(#hfGlow)">
+      <animate attributeName="cx" values="490;370;510;490" dur="9s" repeatCount="indefinite" />
+    </circle>
+  </g>
+  <rect x="1" y="1" width="590" height="136" rx="14" stroke="#27272A" stroke-width="1.5" />
+  <text x="28" y="38" class="sans" fill="#09090B" font-size="16.5" font-weight="700">
+    Maoseavik / agri-qwen3b-lora
+  </text>
+  <rect x="444" y="18" width="120" height="24" rx="8" fill="#18181B" stroke="#27272A" />
+  <text x="458" y="34" class="sans" fill="#92400E" font-size="11.5" font-weight="500">
+    SFT · TRL · LoRA
+  </text>
+  <text x="28" y="64" class="sans" fill="#52525B" font-size="13" font-weight="400">
+    Supervised fine-tuned LoRA adapter on Qwen2.5-3B-Instruct for crop disease
+  </text>
+  <text x="28" y="83" class="sans" fill="#52525B" font-size="13" font-weight="400">
+    diagnosis, treatment planning, and bilingual agricultural advisory.
+  </text>
+  <text x="28" y="114" class="mono" fill="#71717A" font-size="12">
+    Base: Qwen/Qwen2.5-3B-Instruct · Format: SafeTensors
+  </text>
+
+  <!-- MODEL 2 -->
+  <g clip-path="url(#mc2)">
+    <rect x="609" y="1" width="590" height="136" rx="14" fill="#FFFFFF" />
+    <rect x="609" y="1" width="590" height="136" fill="url(#mGrid)" />
+    <circle cx="1090" cy="35" r="160" fill="url(#hfGlow)">
+      <animate attributeName="cx" values="1090;970;1110;1090" dur="10s" repeatCount="indefinite" />
+    </circle>
+  </g>
+  <rect x="609" y="1" width="590" height="136" rx="14" stroke="#27272A" stroke-width="1.5" />
+  <text x="636" y="38" class="sans" fill="#09090B" font-size="16.5" font-weight="700">
+    Maoseavik / agrisystem-qwen2.5-3b-gguf
+  </text>
+  <rect x="1044" y="18" width="128" height="24" rx="8" fill="#18181B" stroke="#27272A" />
+  <text x="1058" y="34" class="sans" fill="#92400E" font-size="11.5" font-weight="500">
+    Quantized GGUF
+  </text>
+  <text x="636" y="64" class="sans" fill="#52525B" font-size="13" font-weight="400">
+    Quantized GGUF build of the AgriSystem Qwen2.5-3B model engineered for
+  </text>
+  <text x="636" y="83" class="sans" fill="#52525B" font-size="13" font-weight="400">
+    low-latency local and CPU/edge inference via llama.cpp and Ollama.
+  </text>
+  <text x="636" y="114" class="mono" fill="#71717A" font-size="12">
+    Base: Qwen/Qwen2.5-3B-Instruct · Format: GGUF (Edge / CPU)
+  </text>
+
+  <!-- MODEL 3 -->
+  <g clip-path="url(#mc3)">
+    <rect x="1" y="153" width="590" height="136" rx="14" fill="#FFFFFF" />
+    <rect x="1" y="153" width="590" height="136" fill="url(#mGrid)" />
+    <circle cx="480" cy="190" r="160" fill="url(#hfGlow)">
+      <animate attributeName="cx" values="480;360;500;480" dur="9.5s" repeatCount="indefinite" />
+    </circle>
+  </g>
+  <rect x="1" y="153" width="590" height="136" rx="14" stroke="#27272A" stroke-width="1.5" />
+  <text x="28" y="190" class="sans" fill="#09090B" font-size="16.5" font-weight="700">
+    Maoseavik / agrisystem-qwen2.5-3b-adapter
+  </text>
+  <rect x="462" y="170" width="102" height="24" rx="8" fill="#18181B" stroke="#27272A" />
+  <text x="476" y="186" class="sans" fill="#92400E" font-size="11.5" font-weight="500">
+    PEFT Adapter
+  </text>
+  <text x="28" y="216" class="sans" fill="#52525B" font-size="13" font-weight="400">
+    Parameter-efficient adapter weights trained on curated agricultural knowledge
+  </text>
+  <text x="28" y="235" class="sans" fill="#52525B" font-size="13" font-weight="400">
+    bases for structured symptom-to-treatment domain reasoning.
+  </text>
+  <text x="28" y="266" class="mono" fill="#71717A" font-size="12">
+    Base: Qwen/Qwen2.5-3B-Instruct · Format: Transformers
+  </text>
+
+  <!-- MODEL 4 -->
+  <g clip-path="url(#mc4)">
+    <rect x="609" y="153" width="590" height="136" rx="14" fill="#FFFFFF" />
+    <rect x="609" y="153" width="590" height="136" fill="url(#mGrid)" />
+    <circle cx="1080" cy="195" r="160" fill="url(#hfGlow)">
+      <animate attributeName="cx" values="1080;960;1100;1080" dur="10.5s" repeatCount="indefinite" />
+    </circle>
+  </g>
+  <rect x="609" y="153" width="590" height="136" rx="14" stroke="#27272A" stroke-width="1.5" />
+  <text x="636" y="190" class="sans" fill="#09090B" font-size="16.5" font-weight="700">
+    Maoseavik / agri-expert-adapter
+  </text>
+  <rect x="1038" y="170" width="134" height="24" rx="8" fill="#18181B" stroke="#27272A" />
+  <text x="1052" y="186" class="sans" fill="#92400E" font-size="11.5" font-weight="500">
+    PEFT · LoRA (1.5B)
+  </text>
+  <text x="636" y="216" class="sans" fill="#52525B" font-size="13" font-weight="400">
+    Compact 1.5B parameter-efficient LoRA adapter built for fast conversational
+  </text>
+  <text x="636" y="235" class="sans" fill="#52525B" font-size="13" font-weight="400">
+    response times on memory-constrained hardware deployments.
+  </text>
+  <text x="636" y="266" class="mono" fill="#71717A" font-size="12">
+    Base: Qwen/Qwen2.5-1.5B-Instruct · Format: SafeTensors
+  </text>
+</svg>

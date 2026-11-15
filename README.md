@@ -1,5 +1,9 @@
 <div align="center">
-  <img src="./assets/hero-bento.svg" width="100%" alt="Mao Seavik — AI Engineer & Backend Software Developer" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-bento.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/hero-bento-light.svg" />
+    <img src="./assets/hero-bento.svg" width="100%" alt="Mao Seavik — AI Engineer & Backend Software Developer" />
+  </picture>
   <br />
   <br />
   <p>
@@ -20,7 +24,11 @@
 ### Selected Engineering Projects
 
 <div align="center">
-  <img src="./assets/projects-bento.svg" width="100%" alt="Selected Engineering Projects" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/projects-bento.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/projects-bento-light.svg" />
+    <img src="./assets/projects-bento.svg" width="100%" alt="Selected Engineering Projects" />
+  </picture>
 </div>
 
 <p align="center">
@@ -41,7 +49,11 @@
 
 <div align="center">
   <a href="https://huggingface.co/Maoseavik">
-    <img src="./assets/models-bento.svg" width="100%" alt="Published Language Models on Hugging Face" />
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/models-bento.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="./assets/models-bento-light.svg" />
+      <img src="./assets/models-bento.svg" width="100%" alt="Published Language Models on Hugging Face" />
+    </picture>
   </a>
 </div>
 
@@ -60,7 +72,11 @@
 ### Technical Stack & Experience
 
 <div align="center">
-  <img src="./assets/stack-bento.svg" width="100%" alt="Technical Stack & Experience" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/stack-bento.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/stack-bento-light.svg" />
+    <img src="./assets/stack-bento.svg" width="100%" alt="Technical Stack & Experience" />
+  </picture>
 </div>
 
 <br />
@@ -71,6 +87,6 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Seavik2142/Seavik2142/output/github-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Seavik2142/Seavik2142/output/github-snake.svg" />
-    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/Seavik2142/Seavik2142/output/github-snake.svg" width="100%" />
+    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/Seavik2142/Seavik2142/output/github-snake-dark.svg" width="100%" />
   </picture>
 </div>
