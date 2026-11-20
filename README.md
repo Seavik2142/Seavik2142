@@ -4,7 +4,7 @@
     <source media="(max-width: 640px) and (prefers-color-scheme: light)" srcset="./assets/hero-mobile-light.svg" />
     <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-bento.svg" />
     <source media="(prefers-color-scheme: light)" srcset="./assets/hero-bento-light.svg" />
-    <img src="./assets/hero-bento.svg" width="100%" alt="Mao Seavik — AI Engineer & Backend Software Developer" />
+    <img src="./assets/hero-bento.svg" width="100%" alt="Mao Seavik — Machine Learning Engineer & Backend Software Developer" />
   </picture>
   <br />
   <br />

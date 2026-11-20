@@ -39,12 +39,12 @@
     <circle cx="14" cy="13" r="3.5" fill="#10B981">
       <animate attributeName="opacity" values="1;0.35;1" dur="2s" repeatCount="indefinite"/>
     </circle>
-    <text x="26" y="17" class="sans" font-size="11" font-weight="700" fill="#047857">Available for AI Engineer &amp; ML Roles</text>
+    <text x="26" y="17" class="sans" font-size="11" font-weight="700" fill="#047857">Available for ML Engineer &amp; Data Science Roles</text>
     <text x="0" y="60" class="sans" font-size="28" font-weight="800" fill="#0F172A" letter-spacing="-0.6">Mao Seavik</text>
-    <text x="0" y="84" class="sans" font-size="14.5" font-weight="700" fill="#0284C7">AI Engineer &amp; Machine Learning Developer</text>
+    <text x="0" y="84" class="sans" font-size="14.5" font-weight="700" fill="#0284C7">Machine Learning Engineer &amp; Data Science Developer</text>
   </g>
 
-  <text x="28" y="148" class="sans" font-size="13.8" font-weight="400" fill="#334155">AI Engineer based in Cambodia specializing in deep</text>
+  <text x="28" y="148" class="sans" font-size="13.8" font-weight="400" fill="#334155">Machine Learning Engineer based in Cambodia specializing in deep</text>
   <text x="28" y="170" class="sans" font-size="13.8" font-weight="400" fill="#334155">learning &amp; LLM fine-tuning (<tspan fill="#B45309" font-weight="700">PyTorch</tspan>, <tspan fill="#0284C7" font-weight="700">TensorFlow</tspan>,</text>
   <text x="28" y="192" class="sans" font-size="13.8" font-weight="400" fill="#334155"><tspan fill="#047857" font-weight="700">Hugging Face</tspan>, <tspan fill="#4F46E5" font-weight="700">LangChain</tspan>, <tspan fill="#B45309" font-weight="700">PEFT/LoRA</tspan>), data science</text>
   <text x="28" y="214" class="sans" font-size="13.8" font-weight="400" fill="#334155">pipelines (<tspan fill="#0284C7" font-weight="700">NumPy</tspan>, <tspan fill="#047857" font-weight="700">Pandas</tspan>, <tspan fill="#0F172A" font-weight="700">Scikit-learn</tspan>), and production</text>
@@ -87,7 +87,7 @@
   </rect>
 
   <g transform="translate(28, 492)">
-    <text x="0" y="14" class="sans" font-size="18" font-weight="800" fill="#0F172A">AI Engineering &amp; Research Focus</text>
+    <text x="0" y="14" class="sans" font-size="18" font-weight="800" fill="#0F172A">ML Engineering &amp; Research Focus</text>
 
     <g transform="translate(0, 32)">
       <rect x="0" y="0" width="424" height="52" rx="12" fill="url(#subCard)" stroke="#E2E8F0" stroke-width="1"/>
