@@ -1,8 +1,8 @@
-name: Generate Contribution Snake
+name: Auto-Sync Live GitHub Profile & Contribution Activity
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 */6 * * *"
   workflow_dispatch:
   push:
     branches:
@@ -12,14 +12,32 @@ permissions:
   contents: write
 
 jobs:
-  generate:
+  sync-profile:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Generate Snake
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Update Live Contribution Activity & Public Repositories SVGs
+        run: python3 .github/scripts/update_live_svgs.py
+
+      - name: Commit and Push Updated SVGs to Main
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [[ -n "$(git status --porcelain assets/)" ]]; then
+            git add assets/
+            git commit -m "chore(telemetry): auto-sync live GitHub contributions and public repositories [skip ci]"
+            git push origin main
+          fi
+
+      - name: Generate Contribution Snake
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: Seavik2142
@@ -27,7 +45,7 @@ jobs:
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
 
-      - name: Deploy Snake
+      - name: Deploy Snake to Output Branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output

@@ -63,7 +63,7 @@
   <g transform="translate(28, 300)">
     <rect x="0" y="0" width="206" height="60" rx="12" fill="url(#subCard)" stroke="#E2E8F0" stroke-width="1"/>
     <text x="14" y="22" class="sans" font-size="11" font-weight="600" fill="#64748B">Public Repositories</text>
-    <text x="14" y="47" class="sans" font-size="22" font-weight="800" fill="#0F172A">23</text>
+    <text x="14" y="47" class="sans" font-size="22" font-weight="800" fill="#0F172A">25</text>
     <text x="50" y="46" class="sans" font-size="11" font-weight="700" fill="#0284C7">Active</text>
 
     <rect x="218" y="0" width="206" height="60" rx="12" fill="url(#subCard)" stroke="#E2E8F0" stroke-width="1"/>
