@@ -15,10 +15,74 @@ ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 ASSETS_DIR = os.path.join(ROOT_DIR, "assets")
 
 
-def fetch_json(url: str):
-    req = urllib.request.Request(url, headers={"User-Agent": "Seavik2142-Profile-Updater/1.0"})
+def fetch_json(url: str, token: str = ""):
+    headers = {"User-Agent": "Seavik2142-Profile-Updater/1.0"}
+    if token:
+        headers["Authorization"] = f"Bearer {token}"
+    req = urllib.request.Request(url, headers=headers)
     with urllib.request.urlopen(req, timeout=15) as resp:
         return json.loads(resp.read().decode("utf-8"))
+
+
+def fetch_graphql_profile(username: str, token: str):
+    query = """
+    query($login: String!) {
+      user(login: $login) {
+        repositories(privacy: PUBLIC) { totalCount }
+        contributionsCollection {
+          contributionCalendar {
+            totalContributions
+            weeks {
+              contributionDays {
+                date
+                contributionCount
+                contributionLevel
+              }
+            }
+          }
+        }
+      }
+    }
+    """
+    level_map = {
+        "NONE": 0,
+        "FIRST_QUARTILE": 1,
+        "SECOND_QUARTILE": 2,
+        "THIRD_QUARTILE": 3,
+        "FOURTH_QUARTILE": 4,
+    }
+    body = json.dumps({"query": query, "variables": {"login": username}}).encode("utf-8")
+    req = urllib.request.Request(
+        "https://api.github.com/graphql",
+        data=body,
+        headers={
+            "Authorization": f"Bearer {token}",
+            "Content-Type": "application/json",
+            "User-Agent": "Seavik2142-Profile-Updater/1.0",
+        },
+        method="POST",
+    )
+    with urllib.request.urlopen(req, timeout=15) as resp:
+        data = json.loads(resp.read().decode("utf-8"))
+    u = data.get("data", {}).get("user")
+    if not u:
+        return None
+    cal = u.get("contributionsCollection", {}).get("contributionCalendar", {})
+    days = []
+    for w in cal.get("weeks", []):
+        for d in w.get("contributionDays", []):
+            days.append(
+                {
+                    "date": d["date"],
+                    "count": d["contributionCount"],
+                    "level": level_map.get(d["contributionLevel"], 0),
+                }
+            )
+    return {
+        "public_repos": u.get("repositories", {}).get("totalCount", 25),
+        "total_contribs": cal.get("totalContributions", 861),
+        "contrib_days": days,
+    }
 
 
 def build_activity_svg(mode: str, layout: str, contrib_days: list, total_contribs: int, public_repos: int):
@@ -273,16 +337,29 @@ def build_activity_svg(mode: str, layout: str, contrib_days: list, total_contrib
 
 
 def main():
-    user = fetch_json(f"https://api.github.com/users/{USERNAME}")
-    contrib = fetch_json(f"https://github-contributions-api.jogruber.de/v4/{USERNAME}?y=last")
+    token = os.environ.get("GITHUB_TOKEN", "").strip()
+    gql_data = None
+    if token:
+        try:
+            gql_data = fetch_graphql_profile(USERNAME, token)
+            print("Fetched profile & contribution calendar via official GitHub GraphQL API!")
+        except Exception as e:
+            print("GraphQL fallback to REST:", e)
 
-    public_repos = int(user.get("public_repos", 25))
-    contrib_days = contrib.get("contributions", [])
-    total_contribs = int(contrib.get("total", {}).get("lastYear", 861))
+    if gql_data:
+        public_repos = int(gql_data["public_repos"])
+        contrib_days = gql_data["contrib_days"]
+        total_contribs = int(gql_data["total_contribs"])
+    else:
+        user = fetch_json(f"https://api.github.com/users/{USERNAME}", token)
+        contrib = fetch_json(f"https://github-contributions-api.jogruber.de/v4/{USERNAME}?y=last")
+        public_repos = int(user.get("public_repos", 25))
+        contrib_days = contrib.get("contributions", [])
+        total_contribs = int(contrib.get("total", {}).get("lastYear", 861))
 
     # Overlay same-day push events from GitHub Events API
     try:
-        events = fetch_json(f"https://api.github.com/users/{USERNAME}/events/public?per_page=30")
+        events = fetch_json(f"https://api.github.com/users/{USERNAME}/events/public?per_page=30", token)
         today_counts = {}
         for ev in events:
             dt = str(ev.get("created_at", ""))[:10]

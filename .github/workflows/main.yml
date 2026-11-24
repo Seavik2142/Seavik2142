@@ -25,6 +25,8 @@ jobs:
           python-version: "3.12"
 
       - name: Update Live Contribution Activity & Public Repositories SVGs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN || secrets.GITHUB_TOKEN }}
         run: python3 .github/scripts/update_live_svgs.py
 
       - name: Commit and Push Updated SVGs to Main
