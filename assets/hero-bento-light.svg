@@ -90,7 +90,7 @@
   <g transform="translate(28, 306)">
     <rect x="0" y="0" width="120" height="82" rx="12" fill="url(#subCard)" stroke="#E2E8F0" stroke-width="1"/>
     <text x="12" y="24" class="sans" font-size="10.5" font-weight="600" fill="#64748B">Repositories</text>
-    <text x="12" y="54" class="sans" font-size="23" font-weight="800" fill="#0F172A">25</text>
+    <text x="12" y="54" class="sans" font-size="23" font-weight="800" fill="#0F172A">29</text>
     <text x="12" y="71" class="sans" font-size="10" font-weight="700" fill="#0284C7">Public &amp; Active</text>
 
     <rect x="129" y="0" width="120" height="82" rx="12" fill="url(#subCard)" stroke="#E2E8F0" stroke-width="1"/>
@@ -154,7 +154,7 @@
 
     <g transform="translate(0, 274)">
       <text x="0" y="12" class="sans" font-size="11.5" font-weight="700" fill="#0F172A">Primary Languages</text>
-      <text x="258" y="12" text-anchor="end" class="sans" font-size="11" font-weight="500" fill="#64748B">25 repos</text>
+      <text x="258" y="12" text-anchor="end" class="sans" font-size="11" font-weight="500" fill="#64748B">29 repos</text>
 
       <rect x="0" y="22" width="258" height="8" rx="4" fill="#E2E8F0"/>
       <rect x="0" y="22" width="93" height="8" rx="4" fill="#3572A5"/>
