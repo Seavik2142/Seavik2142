@@ -39,7 +39,7 @@
       <circle cx="8" cy="10" r="4" fill="#10B981">
         <animate attributeName="opacity" values="1;0.35;1" dur="2s" repeatCount="indefinite"/>
       </circle>
-      <text x="20" y="14" class="sans" font-size="14.5" font-weight="800" fill="#FAFAFA">888 Contributions (Last 12 Months)</text>
+      <text x="20" y="14" class="sans" font-size="14.5" font-weight="800" fill="#FAFAFA">887 Contributions (Last 12 Months)</text>
       <text x="424" y="14" text-anchor="end" class="sans" font-size="11.5" font-weight="600" fill="#34D399">@Seavik2142</text>
       <text x="20" y="34" class="sans" font-size="11.5" font-weight="500" fill="#A1A1AA">Live GitHub commit history across 29 public repositories</text>
     </g>
@@ -72,7 +72,7 @@
     </g>
 
     <g transform="translate(24, 192)">
-      <text x="0" y="11" class="sans" font-size="11" font-weight="600" fill="#71717A">29 Public Repos · 888 Contributions</text>
+      <text x="0" y="11" class="sans" font-size="11" font-weight="600" fill="#71717A">29 Public Repos · 887 Contributions</text>
       <g transform="translate(310, 0)">
         <text x="0" y="11" class="sans" font-size="10.5" font-weight="600" fill="#71717A">Less</text>
         <rect x="30" y="1" width="10" height="10" rx="2.5" fill="#181820"/>
@@ -94,7 +94,7 @@
 
       <rect x="218" y="0" width="206" height="78" rx="12" fill="url(#subCard)" stroke="#27272A" stroke-width="1"/>
       <text x="232" y="22" class="sans" font-size="10.5" font-weight="700" fill="#71717A">ANNUAL COMMITS</text>
-      <text x="232" y="46" class="sans" font-size="15" font-weight="800" fill="#FAFAFA">888 Contributions</text>
+      <text x="232" y="46" class="sans" font-size="15" font-weight="800" fill="#FAFAFA">887 Contributions</text>
       <text x="232" y="64" class="sans" font-size="11" font-weight="600" fill="#FBBF24">4 HF Models · Active Daily</text>
     </g>
   </g>
