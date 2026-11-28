@@ -39,7 +39,7 @@
       <circle cx="8" cy="10" r="4" fill="#10B981">
         <animate attributeName="opacity" values="1;0.35;1" dur="2s" repeatCount="indefinite"/>
       </circle>
-      <text x="20" y="14" class="sans" font-size="14.5" font-weight="800" fill="#FAFAFA">890 Contributions (Last 12 Months)</text>
+      <text x="20" y="14" class="sans" font-size="14.5" font-weight="800" fill="#FAFAFA">894 Contributions (Last 12 Months)</text>
       <text x="424" y="14" text-anchor="end" class="sans" font-size="11.5" font-weight="600" fill="#34D399">@Seavik2142</text>
       <text x="20" y="34" class="sans" font-size="11.5" font-weight="500" fill="#A1A1AA">Live GitHub commit history across 30 public repositories</text>
     </g>
@@ -53,14 +53,16 @@
           <animate attributeName="opacity" values="1;0.45;1" dur="3.7s" repeatCount="indefinite"/>
         </rect><rect x="351" y="13" width="10" height="10" rx="3" fill="#181820"/><rect x="351" y="26" width="10" height="10" rx="3" fill="#34D399"/><rect x="351" y="39" width="10" height="10" rx="3" fill="#10B981">
           <animate attributeName="opacity" values="1;0.45;1" dur="3.2s" repeatCount="indefinite"/>
-        </rect><rect x="351" y="52" width="10" height="10" rx="3" fill="#064E3B"/><rect x="351" y="65" width="10" height="10" rx="3" fill="#181820"/><rect x="351" y="78" width="10" height="10" rx="3" fill="#181820"/>
+        </rect><rect x="351" y="52" width="10" height="10" rx="3" fill="#064E3B"/><rect x="351" y="65" width="10" height="10" rx="3" fill="#181820"/><rect x="351" y="78" width="10" height="10" rx="3" fill="#10B981">
+          <animate attributeName="opacity" values="1;0.45;1" dur="2.7s" repeatCount="indefinite"/>
+        </rect>
       <path d="M 0 30 L 79 30 L 79 69 L 173 69 L 173 17 L 267 17 L 267 56 L 357 56 L 357 30" fill="none" stroke="url(#snakeGrad)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="110 900">
         <animate attributeName="stroke-dashoffset" from="1010" to="0" dur="7s" repeatCount="indefinite"/>
       </path>
     </g>
 
     <g transform="translate(24, 192)">
-      <text x="0" y="11" class="sans" font-size="11" font-weight="600" fill="#71717A">30 Public Repos · 890 Contributions</text>
+      <text x="0" y="11" class="sans" font-size="11" font-weight="600" fill="#71717A">30 Public Repos · 894 Contributions</text>
       <g transform="translate(310, 0)">
         <text x="0" y="11" class="sans" font-size="10.5" font-weight="600" fill="#71717A">Less</text>
         <rect x="30" y="1" width="10" height="10" rx="2.5" fill="#181820"/>
@@ -82,7 +84,7 @@
 
       <rect x="218" y="0" width="206" height="78" rx="12" fill="url(#subCard)" stroke="#27272A" stroke-width="1"/>
       <text x="232" y="22" class="sans" font-size="10.5" font-weight="700" fill="#71717A">ANNUAL COMMITS</text>
-      <text x="232" y="46" class="sans" font-size="15" font-weight="800" fill="#FAFAFA">890 Contributions</text>
+      <text x="232" y="46" class="sans" font-size="15" font-weight="800" fill="#FAFAFA">894 Contributions</text>
       <text x="232" y="64" class="sans" font-size="11" font-weight="600" fill="#FBBF24">4 HF Models · Active Daily</text>
     </g>
   </g>
